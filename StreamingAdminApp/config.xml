@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.yourcompany.streamingadmin" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Streaming Admin</name>
+    <description>
+        A sample Apache Cordova application.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="market:*" />
+    <allow-intent href="itms:*" />
+    <allow-intent href="itms-apps:*" />
+    <allow-navigation href="https://*.googleapis.com/*" />
+    <allow-navigation href="https://*.firebaseapp.com/*" />
+    <allow-navigation href="https://*.firebase.com/*" />
+    <allow-navigation href="https://*.gstatic.com/*" />
+    <allow-navigation href="https://*.firebaseio.com/*" />
+    <allow-navigation href="https://*.cloudfunctions.net/*" />
+    <allow-navigation href="https://*.imgbb.com/*" />
+    <platform name="android">
+        <preference name="android-minSdkVersion" value="21" />
+        <preference name="android-targetSdkVersion" value="35" />
+        <preference name="GradlePluginVersion" value="8.0.0" />
+        <preference name="AndroidXEnabled" value="true" />
+    </platform>
+</widget>
