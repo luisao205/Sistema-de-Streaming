@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.yourcompany.streamingadmin" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Streaming Admin</name>
+    <name>Streaming Luisao</name>
     <description>
         A sample Apache Cordova application.
     </description>
@@ -8,6 +8,8 @@
         Apache Cordova Team
     </author>
     <content src="index.html" />
+    
+    <!-- Permisos de navegación -->
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <allow-intent href="tel:*" />
@@ -22,10 +24,26 @@
     <allow-navigation href="https://*.firebaseio.com/*" />
     <allow-navigation href="https://*.cloudfunctions.net/*" />
     <allow-navigation href="https://*.imgbb.com/*" />
+
     <platform name="android">
+        <!-- Preferencias de Android -->
         <preference name="android-minSdkVersion" value="21" />
         <preference name="android-targetSdkVersion" value="35" />
         <preference name="GradlePluginVersion" value="8.0.0" />
         <preference name="AndroidXEnabled" value="true" />
+
+        <!-- ICONO DE LA APP -->
+        <icon src="resources/icon.png" density="ldpi" />
+        <icon src="resources/icon.png" density="mdpi" />
+        <icon src="resources/icon.png" density="hdpi" />
+        <icon src="resources/icon.png" density="xhdpi" />
+        <icon src="resources/icon.png" density="xxhdpi" />
+        <icon src="resources/icon.png" density="xxxhdpi" />
+
+        <!-- SPLASH MODERNO PARA ANDROID 12+ -->
+        <preference name="SplashScreen" value="screen" />
+        <preference name="SplashScreenDelay" value="3000" />
+        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="resources/icon.png" />
+        <preference name="AndroidWindowSplashScreenBackground" value="#ffffff" />
     </platform>
 </widget>

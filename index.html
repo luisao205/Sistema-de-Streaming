@@ -1,19 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<<<<<<< HEAD
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Administrador de Cuentas Streaming - Tu App</title>
-    <meta name="description" content="Sistema de gestión de cuentas de streaming para administrar clientes, ventas, finanzas y cuentas de plataformas como Netflix, HBO Max, etc." />
-    <meta name="keywords" content="streaming, cuentas, gestión, clientes, ventas, finanzas, Netflix, HBO Max, Disney+, Spotify, administrador" />
-    <meta name="author" content="Tu Nombre/Empresa" />
-    <meta property="og:title" content="Administrador de Cuentas Streaming" />
-    <meta property="og:description" content="Sistema de gestión de cuentas de streaming para administrar clientes, ventas, finanzas y cuentas de plataformas como Netflix, HBO Max, etc." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://tudominio.com" />
-    <!-- <meta property="og:image" content="https://tudominio.com/imagen-preview.jpg" /> -->
-=======
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Administrador de Cuentas Streaming - Tu App</title>
@@ -26,19 +13,13 @@
     <meta property="og:url" content="https://tudominio.com">
     <!-- <meta property="og:image" content="https://tudominio.com/imagen-preview.jpg"> -->
 
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
     <!-- Firebase Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/9.23.0/firebase-app-compat.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/9.23.0/firebase-firestore-compat.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/9.23.0/firebase-auth-compat.min.js"></script>
-<<<<<<< HEAD
-    <!-- Font Awesome para iconos profesionales -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-=======
     
     <!-- Font Awesome para iconos profesionales -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
     
     <style>
         /* ============= VARIABLES CSS ============= */
@@ -309,8 +290,6 @@
             100% { transform: rotate(360deg); }
         }
 
-<<<<<<< HEAD
-=======
         /* Demo mode styles */
         .demo-alert {
             background: var(--gradient-warning);
@@ -356,7 +335,6 @@
             width: 16px;
         }
 
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
         /* ============= MAIN APPLICATION ============= */
         .main-app {
             min-height: 100vh;
@@ -485,11 +463,7 @@
 
         .section-header {
             display: flex;
-<<<<<<< HEAD
-            justify-content: space-between;
-=======
             justify-content: space-between; /* Changed from 'between' to 'space-between' */
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
             align-items: center;
             margin-bottom: var(--spacing-xl);
             flex-wrap: wrap;
@@ -751,11 +725,7 @@
             backdrop-filter: blur(4px);
         }
 
-<<<<<<< HEAD
-        .modal-overlay.show {
-=======
         .modal-overlay.active {
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
             opacity: 1;
             visibility: visible;
         }
@@ -1133,11 +1103,7 @@
         
         .summary-item .value {
             font-weight: 600;
-<<<<<<< HEAD
-            color: var(--dark-color);
-=======
             color: var(--dark-color); /* Changed from #495057 to var(--dark-color) for consistency */
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
         }
 
         /* Styles for account profit/loss items in financial overview */
@@ -1304,93 +1270,6 @@
             padding: 4px 0;
         }
 
-<<<<<<< HEAD
-        /* ============= MODAL DE CONFIRMACIÓN DE COMPRA ============= */
-        .purchase-success-content {
-            text-align: center;
-        }
-        
-        .success-message {
-            margin-bottom: 2rem;
-        }
-        
-        .success-icon {
-            animation: successBounce 0.6s ease-out;
-        }
-        
-        @keyframes successBounce {
-            0% { 
-                transform: scale(0);
-                opacity: 0;
-            }
-            50% { 
-                transform: scale(1.2);
-                opacity: 1;
-            }
-            100% { 
-                transform: scale(1);
-            }
-        }
-        
-        .account-access-card {
-            text-align: left;
-        }
-        
-        .access-details-grid {
-            display: grid;
-            gap: 1rem;
-        }
-        
-        .access-item label {
-            font-weight: 600;
-            color: var(--dark-color);
-            display: block;
-            margin-bottom: 4px;
-        }
-        
-        .access-value {
-            background: white;
-            padding: 12px;
-            border-radius: var(--border-radius);
-            border: 1px solid #e2e8f0;
-            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
-            font-size: 1.1rem;
-            word-break: break-all;
-            transition: all var(--transition-fast);
-            position: relative;
-        }
-        
-        .access-value:hover {
-            border-color: var(--primary-color);
-            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
-        }
-        
-        .purchase-info {
-            text-align: left;
-        }
-        
-        .purchase-info div {
-            padding: 8px 0;
-            border-bottom: 1px solid rgba(191, 219, 254, 0.5);
-        }
-        
-        .purchase-info div:last-child {
-            border-bottom: none;
-        }
-        
-        .important-notice {
-            text-align: left;
-        }
-        
-        .whatsapp-button:hover {
-            text-decoration: none;
-            color: white;
-        }
-
-        /* Utilities */
-
-=======
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
         .client-login-screen {
             background: var(--gradient-primary);
         }
@@ -1624,35 +1503,6 @@
             margin-top: 5px;
             font-size: 0.9rem;
         }
-<<<<<<< HEAD
-
-        /* Contenedor de las estrellas */
-.product-rating {
-    margin-top: 5px;           /* Espacio debajo del precio */
-    display: flex;
-    align-items: center;
-    gap: 2px;                  /* Espacio entre estrellas */
-}
-
-/* Estrella vacía */
-.product-rating .star {
-    font-size: 18px;
-    color: #ccc;               /* Gris claro para estrellas vacías */
-}
-
-/* Estrella llena */
-.product-rating .star.filled {
-    color: gold;               /* Dorado para estrellas llenas */
-}
-
-/* Opcional: efecto hover para resaltar (si quieres hacerlo interactivo después) */
-.product-rating .star:hover {
-    color: orange;
-    cursor: default;           /* No interactiva */
-}
-
-=======
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
     </style>
 </head>
 <body>
@@ -1719,11 +1569,7 @@
                         <label for="clientLoginEmail">
                             <i class="fas fa-envelope" aria-hidden="true"></i> Email
                         </label>
-<<<<<<< HEAD
-                        <input type="email" id="clientLoginEmail" class="form-control" placeholder="tu@email.com" autocomplete="username" aria-required="true" tabindex="0">
-=======
                         <input type="email" id="loginEmail" class="form-control" placeholder="tu@email.com" autocomplete="username" aria-required="true" tabindex="0">
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                     </div>
                     
                     <div class="form-group">
@@ -1824,8 +1670,6 @@
         </div>
     </div>
 
-<<<<<<< HEAD
-=======
     <!-- Modo Demo (Admin) -->
     <div id="adminDemoScreen" class="login-screen" style="display: none;" role="dialog" aria-modal="true" aria-labelledby="admin-demo-title">
         <div class="login-container">
@@ -1908,7 +1752,6 @@
         </div>
     </div>
 
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
     <!-- Aplicación Principal (Admin) -->
     <div id="mainApp" class="main-app" style="display: none;">
         <!-- Header -->
@@ -1940,11 +1783,7 @@
                     <i class="fas fa-tv" aria-hidden="true"></i> Cuentas
                 </button>
                 <button class="nav-btn" onclick="showSection('clients')" aria-controls="clients" aria-selected="false" role="tab" tabindex="0">
-<<<<<<< HEAD
-                    <i class="fas fa-users" aria-hidden="true"></i> Clientes Manuales
-=======
                     <i class="fas fa-users" aria-hidden="true"></i> Clientes
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                 </button>
                 <button class="nav-btn" onclick="showSection('sales')" aria-controls="sales" aria-selected="false" role="tab" tabindex="0">
                     <i class="fas fa-shopping-cart" aria-hidden="true"></i> Ventas
@@ -1959,14 +1798,9 @@
                     <i class="fas fa-money-check-alt" aria-hidden="true"></i> Recargas
                 </button>
                 <button class="nav-btn" onclick="showSection('services')" aria-controls="services" aria-selected="false" role="tab" tabindex="0">
-<<<<<<< HEAD
-                    <i class="fas fa-box" aria-hidden="true"></i> Servicios
-                </button>
-=======
     <i class="fas fa-box" aria-hidden="true"></i> Servicios
 </button>
 
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                 <button class="nav-btn" onclick="showSection('config')" aria-controls="config" aria-selected="false" role="tab" tabindex="0">
                     <i class="fas fa-cog" aria-hidden="true"></i> Config
                 </button>
@@ -2001,11 +1835,7 @@
                             </div>
                         </div>
                         <div class="stat-number" id="totalClients">0</div>
-<<<<<<< HEAD
-                        <div class="stat-label">Clientes Web</div>
-=======
                         <div class="stat-label">Clientes Activos</div>
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                     </div>
                     <div class="stat-card warning" role="region" aria-labelledby="totalSales">
                         <div class="stat-header">
@@ -2038,11 +1868,7 @@
                                     <i class="fas fa-plus" aria-hidden="true"></i> Nueva Cuenta
                                 </button>
                                 <button class="btn btn-success" onclick="openAddClientModal()" tabindex="0">
-<<<<<<< HEAD
-                                    <i class="fas fa-user-plus" aria-hidden="true"></i> Nuevo Cliente Manual
-=======
                                     <i class="fas fa-user-plus" aria-hidden="true"></i> Nuevo Cliente
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                                 </button>
                                 <button class="btn btn-warning" onclick="openSaleModal()" tabindex="0">
                                     <i class="fas fa-cash-register" aria-hidden="true"></i> Nueva Venta
@@ -2091,26 +1917,15 @@
                 </div>
             </section>
 
-<<<<<<< HEAD
-            <!-- Clientes Manuales -->
-=======
             <!-- Clientes -->
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
             <section id="clients" class="section" role="tabpanel" aria-labelledby="clients-tab" hidden>
                 <div class="section-header">
                     <h2 class="section-title">
                         <i class="fas fa-users" aria-hidden="true"></i>
-<<<<<<< HEAD
-                        Gestión de Clientes Manuales
-                    </h2>
-                    <button class="btn btn-success" onclick="openAddClientModal()" tabindex="0">
-                        <i class="fas fa-user-plus" aria-hidden="true"></i> Nuevo Cliente Manual
-=======
                         Gestión de Clientes
                     </h2>
                     <button class="btn btn-success" onclick="openAddClientModal()" tabindex="0">
                         <i class="fas fa-user-plus" aria-hidden="true"></i> Nuevo Cliente
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                     </button>
                 </div>
 
@@ -2154,11 +1969,7 @@
                                 <th scope="col"><i class="fas fa-calendar-times" aria-hidden="true"></i> Fin</th>
                                 <th scope="col"><i class="fas fa-dollar-sign" aria-hidden="true"></i> Total</th>
                                 <th scope="col"><i class="fas fa-info-circle" aria-hidden="true"></i> Estado</th>
-<<<<<<< HEAD
-                                <th scope="col"><i class="fas fa-money-bill" aria-hidden="true"></i> Pago</th>
-=======
                                 <th scope="col"><i class="fas fa-money-bill" aria-hidden="true"></i> Pago</th> <!-- CHANGE: Added Payment Status column -->
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                                 <th scope="col"><i class="fas fa-tools" aria-hidden="true"></i> Acciones</th>
                             </tr>
                         </thead>
@@ -2349,11 +2160,7 @@
                 <!-- Tab: Reportes -->
                 <div id="finance-reports" class="finance-tab-content" role="tabpanel" aria-labelledby="reports-tab" hidden>
                     <div class="cards-grid">
-<<<<<<< HEAD
-                        <div class="card report-card" onclick="financialManager.generateMonthlyReport()" role="button" tabindex="0" aria-label="Generar Reporte Mensual">
-=======
                         <div class="card report-card" onclick="financialManager.generateMonthlyReport()" role="button" tabindex="0" aria-label="Generar Reporte Mensual"> <!-- CHANGE: Updated onclick to generateMonthlyReport -->
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                             <div class="card-header">
                                 <h3><i class="fas fa-chart-bar" aria-hidden="true"></i> Reporte Mensual</h3>
                             </div>
@@ -2384,38 +2191,20 @@
                 </div>
 
                 <div class="client-search-sort">
-<<<<<<< HEAD
-                    <input type="text" id="clientSearchInput" class="form-control" placeholder="Buscar por nombre o email..." onkeyup="userManager.filterAndSortUsers()">
-                    <select type="text" id="clientSortBy" class="form-control" onchange="userManager.filterAndSortUsers()">
-=======
                     <input type="text" id="clientSearchInput" class="form-control" placeholder="Buscar por nombre o email..." onkeyup="webClientManager.filterAndSortUsers()">
                     <select type="text" id="clientSortBy" class="form-control" onchange="webClientManager.filterAndSortUsers()">
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                         <option value="name">Ordenar por Nombre</option>
                         <option value="email">Ordenar por Email</option>
                         <option value="balance">Ordenar por Saldo</option>
                         <option value="createdAt">Ordenar por Fecha de Registro</option>
                     </select>
-<<<<<<< HEAD
-                    <select type="text" id="clientSortOrder" class="form-control" onchange="userManager.filterAndSortUsers()">
-=======
                     <select type="text" id="clientSortOrder" class="form-control" onchange="webClientManager.filterAndSortUsers()">
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                         <option value="asc">Ascendente</option>
                         <option value="desc">Descendente</option>
                     </select>
                 </div>
 
                 <div class="client-export-import">
-<<<<<<< HEAD
-                    <button class="btn btn-secondary" onclick="userManager.exportUsersToCsv()">
-                        <i class="fas fa-file-csv" aria-hidden="true"></i> Exportar a CSV
-                    </button>
-                    <button class="btn btn-secondary" onclick="userManager.exportDatabaseToJson()">
-                        <i class="fas fa-file-export" aria-hidden="true"></i> Exportar DB (JSON)
-                    </button>
-                    <input type="file" id="importJsonFile" accept=".json" style="display: none;" onchange="userManager.importDatabaseFromJson(event)">
-=======
                     <button class="btn btn-secondary" onclick="webClientManager.exportUsersToCsv()">
                         <i class="fas fa-file-csv" aria-hidden="true"></i> Exportar a CSV
                     </button>
@@ -2423,7 +2212,6 @@
                         <i class="fas fa-file-export" aria-hidden="true"></i> Exportar DB (JSON)
                     </button>
                     <input type="file" id="importJsonFile" accept=".json" style="display: none;" onchange="webClientManager.importDatabaseFromJson(event)">
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                     <button class="btn btn-secondary" onclick="document.getElementById('importJsonFile').click()">
                         <i class="fas fa-file-import" aria-hidden="true"></i> Importar DB (JSON)
                     </button>
@@ -2468,36 +2256,6 @@
             </section>
 
             <section id="services" class="section" role="tabpanel" aria-labelledby="services-tab" hidden>
-<<<<<<< HEAD
-                <div class="section-header">
-                    <h2 class="section-title">
-                        <i class="fas fa-box" aria-hidden="true"></i>
-                        Gestión de Servicios/Planes
-                    </h2>
-                    <button class="btn" onclick="openAddServiceModal()" tabindex="0">
-                        <i class="fas fa-plus" aria-hidden="true"></i> Nuevo Servicio
-                    </button>
-                </div>
-
-                <div class="table-container">
-                    <table class="table" id="servicesTable" role="table" aria-label="Tabla de Servicios">
-                        <thead>
-                            <tr>
-                                <th scope="col"><i class="fas fa-image" aria-hidden="true"></i> Imagen</th>
-                                <th scope="col"><i class="fas fa-tag" aria-hidden="true"></i> Nombre</th>
-                                <th scope="col"><i class="fas fa-dollar-sign" aria-hidden="true"></i> Precio</th>
-                                <th scope="col"><i class="fas fa-info-circle" aria-hidden="true"></i> Descripción</th>
-                                <th scope="col"><i class="fas fa-tv" aria-hidden="true"></i> Cuentas Disponibles</th>
-                                <th scope="col"><i class="fas fa-tools" aria-hidden="true"></i> Acciones</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr><td colspan="6" class="no-data">No hay servicios registrados.</td></tr>
-                        </tbody>
-                    </table>
-                </div>
-            </section>
-=======
     <div class="section-header">
         <h2 class="section-title">
             <i class="fas fa-box" aria-hidden="true"></i>
@@ -2526,7 +2284,6 @@
         </table>
     </div>
 </section>
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
 
             <!-- Configuración -->
             <section id="config" class="section" role="tabpanel" aria-labelledby="config-tab" hidden>
@@ -2543,11 +2300,7 @@
                     </div>
                     <div class="card-body">
                         <div id="configStatus">
-<<<<<<< HEAD
-                            <p id="configInfo"><strong>Estado:</strong> No conectado</p>
-=======
                             <p id="configInfo"><strong>Modo Demo:</strong> Funcionando con datos locales</p>
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                         </div>
                         <button class="btn" onclick="testFirebaseConnection()" tabindex="0">
                             <i class="fas fa-plug" aria-hidden="true"></i> Probar Conexión
@@ -2638,61 +2391,6 @@
     </div>
 
     <script>
-<<<<<<< HEAD
-        /* --- INSERTA TU firebaseConfig AQUÍ --- */
-        const firebaseConfig = {
-        apiKey: "AIzaSyDNINcVmzUG65S75zDp_7yPN41zyfLunr0",
-        authDomain: "control-de-c.firebaseapp.com",
-        databaseURL: "https://control-de-c-default-rtdb.firebaseio.com",
-        projectId: "control-de-c",
-        storageBucket: "control-de-c.firebasestorage.app",
-        messagingSenderId: "332573734404",
-        appId: "1:332573734404:web:6f2a4a064bac6febec6751"
-        };
-
-        // Detectar entorno (para modo demo)
-const isClaudeEnvironment = false; // <-- AGREGA ESTA LÍNEA AQUÍ
-
-        const ADMIN_UID = '6MoZbkXBd8QCDh3QzQwDkiviw6u2'; // Reemplaza con el UID de tu usuario administrador en Firebase Authentication
-
-        // REGLAS PARA PRUEBAS (NO EN PRODUCCIÓN)
-        // Estas reglas permiten acceso de lectura y escritura solo al administrador.
-        // Para un entorno de producción, necesitarías reglas más granulares y seguras.
-        // service cloud.firestore {
-        //   match /databases/{database}/documents {
-        //     // Reglas para colecciones de administrador (solo admin puede leer/escribir)
-        //     match /{collection}/{document} {
-        //       allow read, write: if request.auth != null && request.auth.uid == 'TU_ADMIN_UID' &&
-        //                          (collection == 'accounts' || collection == 'clients' || 
-        //                           collection == 'sales' || collection == 'expenses' || 
-        //                           collection == 'rechargeRequests' || collection == 'services');
-        //     }
-        //
-        //     // Reglas para la colección 'users' (clientes web)
-        //     match /users/{userId} {
-        //       // Un usuario puede leer y escribir su propio documento
-        //       allow read, update: if request.auth != null && request.auth.uid == userId;
-        //       // Un usuario puede crear su propio documento al registrarse
-        //       allow create: if request.auth != null && request.auth.uid == userId;
-        //       // El administrador puede leer y escribir cualquier documento de usuario
-        //       allow read, write: if request.auth != null && request.auth.uid == 'TU_ADMIN_UID';
-        //
-        //       // Reglas para subcolección 'transactions' dentro de 'users'
-        //       match /transactions/{transactionId} {
-        //         // Un usuario puede leer sus propias transacciones
-        //         allow read: if request.auth != null && request.auth.uid == userId;
-        //         // El administrador puede leer y escribir transacciones de cualquier usuario
-        //         allow read, write: if request.auth != null && request.auth.uid == 'TU_ADMIN_UID';
-        //       }
-        //     }
-        //   }
-        // }
-
-
-        // ============= VARIABLES GLOBALES =============
-        let db; // Instancia de Firestore
-        let auth; // Instancia de Firebase Auth
-=======
         // ============= CONFIGURACIÓN FIREBASE =============
         // Reemplaza esta configuración con la de tu proyecto Firebase
         // Obtén los SDK que necesitas aquí: https://firebase.google.com/docs/web/setup#available-libraries
@@ -2714,25 +2412,10 @@ const isClaudeEnvironment = false; // <-- AGREGA ESTA LÍNEA AQUÍ
         // ============= VARIABLES GLOBALES =============
         let activeModalInstance = null;
         let db; // Instancia de Firestore
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
         let accounts = [];
         let services = [];
         let clients = []; // Clientes del admin (manuales)
         let sales = [];
-<<<<<<< HEAD
-        let users = []; // Clientes del portal web (ahora 'users' en Firestore)
-        let expenses = [];
-        let rechargeRequests = []; // Solicitudes de recarga
-        let currentUser = null; // Usuario logeado (admin o cliente web)
-        let financialManager = null;
-        let userManager = null;
-        let rechargeManager = null;
-
-         // Función para detectar si hay conexión a internet
-        function isOnline() {
-            return navigator.onLine;
-        }
-=======
         let expenses = [];
         let webClients = []; // Clientes del portal web (ahora 'users' en Firestore)
         let rechargeRequests = []; // Solicitudes de recarga
@@ -2743,7 +2426,6 @@ const isClaudeEnvironment = false; // <-- AGREGA ESTA LÍNEA AQUÍ
 
         // UID del administrador para las reglas de Firebase (debe coincidir con el UID del usuario admin en Firebase Auth)
         const ADMIN_UID = '6MoZbkXBd8QCDh3QzQwDkiviw6u2'; // REEMPLAZAR CON EL UID REAL DE TU ADMIN
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
 
         // Número de WhatsApp del administrador para notificaciones
         const ADMIN_WHATSAPP_NUMBER = '593984952217'; // Formato sin '+' para la URL de WhatsApp
@@ -2751,94 +2433,6 @@ const isClaudeEnvironment = false; // <-- AGREGA ESTA LÍNEA AQUÍ
         // Monto mínimo de recarga
         const MIN_RECHARGE_AMOUNT = 5.00;
 
-<<<<<<< HEAD
-        // ============= HELPERS GENERALES =============
-        function sanitizeInput(input) {
-            if (typeof input !== "string") return input;
-            return input.replace(/</g, "&lt;").replace(/>/g, "&gt;").trim();
-        }
-
-        function escapeHTML(unsafe) {
-            if (typeof unsafe !== "string") {
-                if (unsafe === null || unsafe === undefined) return "";
-                return String(unsafe);
-            }
-            return unsafe
-                .replace(/&/g, "&amp;")
-                .replace(/</g, "&lt;")
-                .replace(/>/g, "&gt;")
-                .replace(/"/g, "&quot;")
-                .replace(/'/g, "&#039;")
-                .trim();
-        }
-
-        function formatEcuadorianPhone(phone) {
-            phone = phone.replace(/\D/g, "");
-            if (phone.startsWith("593")) {
-                phone = phone.substring(3);
-            }
-            if (!phone.startsWith("0")) {
-                phone = "0" + phone;
-            }
-            if (phone.length !== 10) {
-                return null;
-            }
-            return phone;
-        }
-
-        function normalizeDate(value) {
-            if (!value) return new Date(0); // fecha mínima
-            if (typeof value.toDate === "function") return value.toDate(); // Timestamp de Firestore
-            if (typeof value === "string" || typeof value === "number") return new Date(value);
-            return new Date(0);
-        }
-
-        function getFirebaseErrorMessage(error) {
-            let errorMessage = 'Error de autenticación';
-            let helpMessage = '';
-            
-            switch(error.code) {
-                case 'auth/network-request-failed':
-                    errorMessage = 'Error de conexión.';
-                    helpMessage = 'Verifica tu conexión a internet.';
-                    break;
-                case 'auth/user-not-found':
-                    errorMessage = 'Usuario no encontrado.';
-                    helpMessage = 'Verifica tu email.';
-                    break;
-                case 'auth/wrong-password':
-                    errorMessage = 'Contraseña incorrecta.';
-                    helpMessage = 'Verifica tu contraseña.';
-                    break;
-                case 'auth/invalid-email':
-                    errorMessage = 'Email inválido.';
-                    helpMessage = 'Verifica que el email tenga formato correcto.';
-                    break;
-                case 'auth/too-many-requests':
-                    errorMessage = 'Demasiados intentos fallidos.';
-                    helpMessage = 'Espera unos minutos antes de intentar nuevamente.';
-                    break;
-                case 'auth/email-already-in-use':
-                    errorMessage = 'El email ya está registrado.';
-                    helpMessage = 'Intenta iniciar sesión o usa otro email.';
-                    break;
-                case 'auth/weak-password':
-                    errorMessage = 'Contraseña débil.';
-                    helpMessage = 'La contraseña debe tener al menos 6 caracteres.';
-                    break;
-                case 'permission-denied':
-                case 'FirebaseError': // General FirebaseError for Firestore permissions
-                    errorMessage = 'Permiso denegado.';
-                    helpMessage = 'No tienes los permisos necesarios para realizar esta acción. Contacta al administrador.';
-                    break;
-                default:
-                    errorMessage = error.message;
-                    helpMessage = 'Contacta a soporte si el problema persiste.';
-            }
-            return errorMessage + (helpMessage ? '\n\n💡 ' + helpMessage : '');
-        }
-
-=======
         // Detectar entorno (para modo demo en entornos específicos como Claude.ai o archivos locales)
         const isClaudeEnvironment = false; // Forzar modo producción para pruebas locales
 
@@ -2920,6 +2514,97 @@ function normalizeDate(value) {
                 }
             });
         }
+
+        // Add this function to your JavaScript code (around line 1000, near other modal functions)
+
+function openAddServiceModal(serviceId = null) {
+    let service = null;
+    if (serviceId) {
+        service = services.find(s => s.id === serviceId);
+        if (!service) {
+            modal.alert('Servicio no encontrado para editar.', 'Error', 'error');
+            return;
+        }
+    }
+
+    // Get unique platforms from existing accounts
+    const platforms = [...new Set(accounts.map(acc => acc.platform))];
+    const platformOptions = [
+        { value: '', text: 'Seleccionar plataforma...' },
+        ...platforms.map(platform => ({ value: platform, text: platform }))
+    ];
+
+    const formConfig = {
+        fields: [
+            { type: 'text', name: 'name', label: 'Nombre del Servicio', required: true, value: service ? service.name : '', placeholder: 'Ej: Netflix Premium' },
+            { type: 'textarea', name: 'description', label: 'Descripción', required: true, value: service ? service.description : '', placeholder: 'Describe las características del servicio...' },
+            { type: 'number', name: 'price', label: 'Precio ($)', required: true, value: service ? (service.price || 0).toFixed(2) : '', step: '0.01', min: '0', placeholder: '0.00' },
+            { type: 'select', name: 'platform', label: 'Plataforma Asociada', required: true, options: platformOptions, value: service ? service.platform : '' },
+            { type: 'number', name: 'profilesPerPurchase', label: 'Perfiles por Compra', required: true, value: service ? (service.profilesPerPurchase || 1) : '1', min: '1', placeholder: '1' },
+            { type: 'text', name: 'imageUrl', label: 'URL de Imagen', required: true, value: service ? service.imageUrl : '', placeholder: 'https://ejemplo.com/imagen.jpg' }
+        ]
+    };
+
+    modal.form(formConfig, `${serviceId ? 'Editar Servicio' : 'Agregar Nuevo Servicio'}`).then(async data => {
+        if (data) {
+            const name = sanitizeInput(data.name);
+            const description = sanitizeInput(data.description);
+            const price = parseFloat(data.price);
+            const platform = sanitizeInput(data.platform);
+            const profilesPerPurchase = parseInt(data.profilesPerPurchase);
+            const imageUrl = sanitizeInput(data.imageUrl);
+
+            // Validations
+            if (isNaN(price) || price < 0) {
+                modal.alert('El precio debe ser un número positivo.', 'Error de Precio', 'error');
+                return;
+            }
+            if (isNaN(profilesPerPurchase) || profilesPerPurchase < 1) {
+                modal.alert('El número de perfiles por compra debe ser al menos 1.', 'Error de Perfiles', 'error');
+                return;
+            }
+            if (!imageUrl.startsWith('http')) {
+                modal.alert('La URL de la imagen debe comenzar con http:// o https://', 'URL Inválida', 'error');
+                return;
+            }
+
+            let serviceToSave;
+            if (serviceId) {
+                serviceToSave = services.find(s => s.id === serviceId);
+                Object.assign(serviceToSave, {
+                    name: name,
+                    description: description,
+                    price: price,
+                    platform: platform,
+                    profilesPerPurchase: profilesPerPurchase,
+                    imageUrl: imageUrl
+                });
+            } else {
+                serviceToSave = {
+                    id: Date.now().toString(),
+                    name: name,
+                    description: description,
+                    price: price,
+                    platform: platform,
+                    profilesPerPurchase: profilesPerPurchase,
+                    imageUrl: imageUrl,
+                    createdAt: new Date().toISOString()
+                };
+                services.push(serviceToSave);
+            }
+
+            try {
+                await saveToFirebase('services', serviceToSave);
+                renderServices();
+                renderAvailableAccountsCatalog(); // Update client catalog
+                modal.toast(`Servicio ${serviceId ? 'actualizado' : 'agregado'} correctamente.`, 'success');
+            } catch (error) {
+                console.error('Error saving service:', error);
+                modal.toast(`Error al guardar el servicio: ${error.message}`, 'error');
+            }
+        }
+    });
+}
 
         function editClient(id) {
             openAddClientModal(id);
@@ -3301,75 +2986,7 @@ function renderServices() {
     });
 }
 
-function openAddServiceModal(serviceId = null) {
-    let service = null;
-    if (serviceId) {
-        service = services.find(s => s.id === serviceId);
-        if (!service) {
-            modal.alert('Servicio no encontrado para editar.', 'Error', 'error');
-            return;
-        }
-    }
 
-    // Obtener plataformas disponibles desde las cuentas existentes
-    const availablePlatforms = [...new Set(accounts.map(acc => acc.platform))];
-    
-    const platformOptions = [
-        { value: '', text: 'Seleccionar plataforma...' },
-        ...availablePlatforms.map(platform => ({ value: platform, text: platform })),
-        { value: 'Netflix', text: 'Netflix' },
-        { value: 'HBO Max', text: 'HBO Max' },
-        { value: 'Disney+', text: 'Disney+' },
-        { value: 'Prime Video', text: 'Prime Video' },
-        { value: 'Spotify', text: 'Spotify' },
-        { value: 'YouTube Premium', text: 'YouTube Premium' },
-        { value: 'Otro', text: 'Otro' }
-    ].filter((option, index, self) => 
-        index === self.findIndex(t => t.value === option.value)
-    );
-
-    const formConfig = {
-        fields: [
-            { type: 'text', name: 'name', label: 'Nombre del Servicio', required: true, value: service ? service.name : '' },
-            { type: 'number', name: 'price', label: 'Precio ($)', required: true, placeholder: '0.00', step: '0.01', value: service ? (service.price || 0).toFixed(2) : '' },
-            { type: 'textarea', name: 'description', label: 'Descripción', required: true, value: service ? service.description : '' },
-            { type: 'text', name: 'imageUrl', label: 'URL de la Imagen', required: true, placeholder: 'https://ejemplo.com/imagen.png', value: service ? service.imageUrl : '' },
-            { type: 'select', name: 'platform', label: 'Plataforma Asociada', required: true, options: platformOptions, value: service ? service.platform : '' },
-            { type: 'number', name: 'profilesPerPurchase', label: 'Perfiles por Compra', required: true, value: service ? (service.profilesPerPurchase || 1) : 1, min: '1' }
-        ]
-    };
-
-    modal.form(formConfig, `${serviceId ? 'Editar Servicio' : 'Agregar Nuevo Servicio'}`).then(async data => {
-        if (data) {
-            const newServiceData = {
-                name: sanitizeInput(data.name),
-                price: parseFloat(data.price),
-                description: sanitizeInput(data.description),
-                imageUrl: sanitizeInput(data.imageUrl),
-                platform: sanitizeInput(data.platform),
-                profilesPerPurchase: parseInt(data.profilesPerPurchase)
-            };
-
-            let serviceToSave;
-            if (serviceId) {
-                serviceToSave = services.find(s => s.id === serviceId);
-                Object.assign(serviceToSave, newServiceData);
-            } else {
-                serviceToSave = { id: Date.now().toString(), ...newServiceData, createdAt: firebase.firestore.FieldValue.serverTimestamp() };
-                services.push(serviceToSave);
-            }
-
-            try {
-                await saveToFirebase('services', serviceToSave);
-                renderServices();
-                modal.toast(`Servicio ${serviceId ? 'actualizado' : 'agregado'} correctamente.`, 'success');
-            } catch (error) {
-                console.error('Error saving service:', error);
-                modal.toast(`Error al guardar el servicio: ${error.message}`, 'error');
-            }
-        }
-    });
-     }
 
 function editService(id) {
     openAddServiceModal(id);
@@ -3583,154 +3200,10 @@ async function processPurchase(serviceId, profilesToBuy, totalCost) {
 
     
 
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
         // ============= SISTEMA DE MODALES =============
         class ModalManager {
             constructor() {
                 this.activeModal = null;
-<<<<<<< HEAD
-                this.lastFocusedElement = null;
-                this.overlay = document.getElementById('modal-overlay') || this._createOverlay();
-                this._debouncing = false;
-                this._debounceMs = 300;
-                this._autoCloseOnSubmit = true;
-                this._resolveForm = null;
-                this.init();
-            }
-
-            init() {
-                document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && this.activeModal) this.close(); });
-                this.overlay.addEventListener('click', (e) => { if (e.target === this.overlay) this.close(); });
-            }
-
-            _createOverlay() {
-                const el = document.createElement('div');
-                el.id = 'modal-overlay';
-                document.body.appendChild(el);
-                return el;
-            }
-
-            _debounce() {
-                if (this._debouncing) return true;
-                this._debouncing = true;
-                setTimeout(() => this._debouncing = false, this._debounceMs);
-                return false;
-            }
-
-            open(content, { size = 'medium', ariaLabel = 'Diálogo' } = {}) {
-                if (this._debounce()) return null;
-                if (this.activeModal) this.close();
-                this.lastFocusedElement = document.activeElement;
-                this.overlay.innerHTML = `<div class="modal modal-${size}" role="dialog" aria-modal="true" aria-label="${ariaLabel}" tabindex="-1">${content}</div>`;
-                document.body.classList.add('modal-open');
-                this.overlay.classList.add('show');
-                const modal = this.overlay.querySelector('.modal');
-                setTimeout(()=> modal?.focus(), 0);
-                this.activeModal = modal;
-                this._trapFocus();
-                document.body.style.overflow = 'hidden';
-                return modal;
-            }
-
-            _trapFocus() {
-                const modal = this.activeModal;
-                if (!modal) return;
-                const selectors = ['a[href]','button','input','select','textarea','[tabindex]:not([tabindex="-1"])'];
-                const focusables = [...modal.querySelectorAll(selectors.join(','))].filter(el => !el.disabled);
-                if (focusables.length === 0) return;
-                const first = focusables[0], last = focusables[focusables.length-1];
-                const handleTab = (e) => {
-                    if (e.key !== 'Tab') return;
-                    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
-                    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
-                };
-                modal.addEventListener('keydown', handleTab);
-                modal._releaseTrap = () => modal.removeEventListener('keydown', handleTab);
-            }
-
-            close() {
-                if (!this.activeModal) return;
-                const modal = this.activeModal;
-                modal._releaseTrap?.();
-                this.overlay.classList.remove('show');
-                this.overlay.innerHTML = '';
-                document.body.classList.remove('modal-open');
-                document.body.style.overflow = '';
-                this.lastFocusedElement?.focus?.();
-                this.activeModal = null;
-            }
-
-            form(config, title, options = {}) {
-                this._autoCloseOnSubmit = options.autoClose !== false;
-                const inputs = (config.fields || []).map(f => this.createFormField(f)).join('');
-                const content = `
-                    <div class="modal-header">
-                        <h3>${title}</h3>
-                        <button class="modal-close" type="button" onclick="modal.close()">&times;</button>
-                    </div>
-                    <div class="modal-body">
-                        <form id="modal-form" aria-label="${title}">
-                            ${inputs}
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button class="btn btn-secondary" type="button" onclick="modal.close(); modal.resolveForm(null);">Cancelar</button>
-                        <button class="btn btn-primary" type="button" onclick="modal.submitForm()">Enviar</button>
-                    </div>
-                `;
-                return new Promise((resolve) => {
-                    this._resolveForm = resolve;
-                    this.open(content, { size: config.size || 'medium', ariaLabel: title });
-                });
-            }
-
-            createFormField(field) {
-                const type = field.type || 'text';
-                const name = field.name || '';
-                const id = field.id || name;
-                const required = field.required ? 'required' : '';
-                const placeholder = field.placeholder ? `placeholder="${field.placeholder}"` : '';
-                const value = field.value !== undefined ? `value="${escapeHTML(String(field.value))}"` : '';
-                const min = field.min !== undefined ? `min="${field.min}"` : '';
-                const max = field.max !== undefined ? `max="${field.max}"` : '';
-                const step = field.step !== undefined ? `step="${field.step}"` : '';
-                const accept = field.accept !== undefined ? `accept="${field.accept}"` : '';
-
-                if (type === 'html') return field.value || '';
-                if (type === 'select') {
-                    const opts = (field.options || []).map(o => `<option value="${escapeHTML(o.value)}" ${field.value === o.value ? 'selected' : ''}>${escapeHTML(o.text)}</option>`).join('');
-                    return `<div class="form-group"><label for="${id}">${escapeHTML(field.label || '')}${field.required ? ' <span aria-hidden="true">*</span>' : ''}</label><select class="form-control" name="${name}" id="${id}" ${required}>${opts}</select></div>`;
-                }
-                if (type === 'textarea') {
-                    return `<div class="form-group"><label for="${id}">${escapeHTML(field.label || '')}${field.required ? ' <span aria-hidden="true">*</span>' : ''}</label><textarea class="form-control" name="${name}" id="${id}" ${placeholder} ${required}>${escapeHTML(field.value || '')}</textarea></div>`;
-                }
-                if (type === 'file') {
-                    return `<div class="form-group"><label for="${id}">${escapeHTML(field.label || '')}${field.required ? ' <span aria-hidden="true">*</span>' : ''}</label><input type="file" class="form-control" name="${name}" id="${id}" ${required} ${accept}></div>`;
-                }
-                return `<div class="form-group"><label for="${id}">${escapeHTML(field.label || '')}${field.required ? ' <span aria-hidden="true">*</span>' : ''}</label><input type="${type}" class="form-control" name="${name}" id="${id}" ${placeholder} ${value} ${required} ${min} ${max} ${step}></div>`;
-            }
-
-            submitForm() {
-                const form = document.getElementById('modal-form');
-                if(!form) return;
-                if (!form.checkValidity()) { form.reportValidity(); return; }
-                const formData = new FormData(form);
-                const data = {};
-                for (const [key, value] of formData.entries()) {
-                    if (key === 'proof') { // Special handling for file input
-                        data[key] = form.querySelector('#proof').files[0];
-                    } else {
-                        data[key] = value;
-                    }
-                }
-                
-                if (this._autoCloseOnSubmit) this.close();
-                if (typeof this._resolveForm === 'function') {
-                    const resolveFn = this._resolveForm;
-                    this._resolveForm = null;
-                    resolveFn(data);
-                }
-=======
                 this.init();
                 this.lastFocusedElement = null;
             }
@@ -3781,101 +3254,10 @@ async function processPurchase(serviceId, profilesToBuy, totalCost) {
                     this.resolveConfirm = resolve;
                     this.open(content, { size: 'small' });
                 });
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
             }
 
             toast(message, type = 'info', duration = 3000) {
                 const toast = document.getElementById('toastNotification');
-<<<<<<< HEAD
-                const msg = document.getElementById('toastMessage');
-                const icon = document.getElementById('toastIcon');
-                if (!toast || !msg || !icon) return;
-
-                toast.classList.remove('success', 'error', 'warning', 'info');
-                icon.className = ''; // Clear previous icon
-
-                switch (type) {
-                    case 'success':
-                        toast.classList.add('success');
-                        icon.classList.add('fas', 'fa-check-circle');
-                        break;
-                    case 'error':
-                        toast.classList.add('error');
-                        icon.classList.add('fas', 'fa-times-circle');
-                        break;
-                    case 'warning':
-                        toast.classList.add('warning');
-                        icon.classList.add('fas', 'fa-exclamation-triangle');
-                        break;
-                    default:
-                        toast.classList.add('info');
-                        icon.classList.add('fas', 'fa-info-circle');
-                        break;
-                }
-
-                msg.textContent = message;
-                toast.classList.add('show');
-                setTimeout(()=>{ toast.classList.remove('show'); }, duration);
-            }
-
-            alert(message, title = 'Información', type = 'info') {
-                const content = `<div class="modal-header"><h3>${title}</h3><button class="modal-close" type="button" onclick="modal.close()">&times;</button></div><div class="modal-body"><p>${message}</p></div><div class="modal-footer"><button class="btn btn-primary" type="button" onclick="modal.close()">Entendido</button></div>`;
-                this.open(content, { size: 'small', ariaLabel: title });
-                // Optionally, you could add a toast here too, but alert is usually for more critical info.
-            }
-
-            confirm(message, title = 'Confirmar') {
-    return new Promise((resolve) => {
-        const content = `
-            <div class="modal-header">
-                <h3>${title}</h3>
-                <button class="modal-close" type="button" id="modalCloseBtn">&times;</button>
-            </div>
-            <div class="modal-body">
-                <p>${message}</p>
-            </div>
-            <div class="modal-footer">
-                <button class="btn btn-secondary" type="button" id="modalCancelBtn">Cancelar</button>
-                <button class="btn btn-danger" type="button" id="modalConfirmBtn">Confirmar</button>
-            </div>
-        `;
-
-        this.open(content, { size: 'small', ariaLabel: title });
-
-        // Esperar que el contenido esté en el DOM
-        // Por ejemplo, buscar el contenedor modal por clase
-        const modalContainer = document.querySelector('.modal');
-
-        if (!modalContainer) {
-            console.error('No se encontró el contenedor del modal');
-            return;
-        }
-
-        const closeBtn = modalContainer.querySelector('#modalCloseBtn');
-        const cancelBtn = modalContainer.querySelector('#modalCancelBtn');
-        const confirmBtn = modalContainer.querySelector('#modalConfirmBtn');
-
-        closeBtn.onclick = () => {
-            this.close();
-            resolve(false);
-        };
-
-        cancelBtn.onclick = () => {
-            this.close();
-            resolve(false);
-        };
-
-        confirmBtn.onclick = () => {
-            this.close();
-            resolve(true);
-        };
-    });
-
-        }
-        }
-        const modal = new ModalManager();
-
-=======
                 const toastMessage = document.getElementById('toastMessage');
                 const toastIcon = document.getElementById('toastIcon');
 
@@ -4078,15 +3460,11 @@ async function processPurchase(serviceId, profilesToBuy, totalCost) {
 
         
 
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
         // ============= SISTEMA FINANCIERO (ADMIN) =============
         class FinancialManager {
             constructor() {
                 this.expenses = [];
-<<<<<<< HEAD
-=======
                 // Expenses are loaded via loadData() and loadExpensesFromFirebase()
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
             }
 
             calculateFinancialMetrics() {
@@ -4101,16 +3479,10 @@ async function processPurchase(serviceId, profilesToBuy, totalCost) {
                 accounts.forEach(account => {
                     metrics.totalInvestment += parseFloat(account.acquisitionCost) || 0;
                     
-<<<<<<< HEAD
-                    const accountSales = sales.filter(sale => sale.accountId === account.id);
-                    const accountRevenue = accountSales.reduce((sum, sale) => sum + parseFloat(sale.total), 0);
-                    account.totalEarned = accountRevenue;
-=======
                     // Ensure totalEarned is calculated based on current sales data
                     const accountSales = sales.filter(sale => sale.accountId === account.id);
                     const accountRevenue = accountSales.reduce((sum, sale) => sum + parseFloat(sale.total), 0);
                     account.totalEarned = accountRevenue; // Update account's totalEarned
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                 });
 
                 metrics.totalRevenue = sales.reduce((sum, sale) => sum + parseFloat(sale.total), 0);
@@ -4264,11 +3636,7 @@ async function processPurchase(serviceId, profilesToBuy, totalCost) {
                 const rentableAccounts = accounts.filter(acc => 
                     (acc.totalEarned || 0) > (parseFloat(acc.acquisitionCost) || 0)
                 ).length;
-<<<<<<< HEAD
-                const totalClients = users.length;
-=======
                 const totalClients = clients.length + webClients.length; // All registered users
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                 const totalSales = sales.length;
                 const activeSales = sales.filter(sale => sale.status === 'Activa').length;
 
@@ -4283,11 +3651,7 @@ async function processPurchase(serviceId, profilesToBuy, totalCost) {
                             <span class="value">${rentableAccounts}</span>
                         </div>
                         <div class="summary-item">
-<<<<<<< HEAD
-                            <span class="label"><i class="fas fa-users" aria-hidden="true"></i> Total de clientes web:</span>
-=======
                             <span class="label"><i class="fas fa-users" aria-hidden="true"></i> Total de clientes:</span>
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                             <span class="value">${totalClients}</span>
                         </div>
                         <div class="summary-item">
@@ -4449,62 +3813,6 @@ async function processPurchase(serviceId, profilesToBuy, totalCost) {
             }
 
             renderExpensesTable() {
-<<<<<<< HEAD
-                const tbody = document.querySelector('#expensesTable tbody');
-                if (!tbody) return;
-
-                tbody.innerHTML = '';
-
-                const sortedExpenses = this.expenses.sort(
-                    (a, b) => normalizeDate(b.createdAt) - normalizeDate(a.createdAt)
-                );
-
-                if (sortedExpenses.length === 0) {
-                    tbody.innerHTML = '<tr><td colspan="5" class="no-data">No hay gastos registrados.</td></tr>';
-                    return;
-                }
-
-                sortedExpenses.forEach(expense => {
-                    const row = document.createElement('tr');
-                    const createdAtDate = normalizeDate(expense.createdAt);
-
-                    row.innerHTML = `
-                        <td>${createdAtDate.toLocaleDateString()}</td>
-                        <td>${escapeHTML(expense.description || "")}</td>
-                        <td>$${(expense.amount || 0).toFixed(2)}</td>
-                        <td><span class="status-badge">${escapeHTML(expense.category || "Sin categoría")}</span></td>
-                        <td>
-                            <button class="btn btn-danger btn-sm" 
-                                    onclick="financialManager.deleteExpense('${expense.id}')"
-                                    aria-label="Eliminar gasto ${escapeHTML(expense.description || "")}" 
-                                    tabindex="0">
-                                <i class="fas fa-trash" aria-hidden="true"></i>
-                            </button>
-                        </td>
-                    `;
-                    tbody.appendChild(row);
-                });
-            }
-
-            updateExpensesSummary() {
-                const now = new Date();
-                const currentMonth = now.getMonth();
-                const currentYear = now.getFullYear();
-
-                const monthlyExpenses = this.expenses.filter(expense => {
-                    const expenseDate = normalizeDate(expense.createdAt);
-                    return expenseDate.getMonth() === currentMonth && expenseDate.getFullYear() === currentYear;
-                }).reduce((sum, expense) => sum + (parseFloat(expense.amount) || 0), 0);
-
-                const yearlyExpenses = this.expenses.filter(expense => {
-                    const expenseDate = normalizeDate(expense.createdAt);
-                    return expenseDate.getFullYear() === currentYear;
-                }).reduce((sum, expense) => sum + (parseFloat(expense.amount) || 0), 0);
-
-                this.updateElement('monthlyExpenses', `$${monthlyExpenses.toFixed(2)}`);
-                this.updateElement('yearlyExpenses', `$${yearlyExpenses.toFixed(2)}`);
-            }
-=======
     const tbody = document.querySelector('#expensesTable tbody');
     if (!tbody) return;
 
@@ -4569,7 +3877,6 @@ async function processPurchase(serviceId, profilesToBuy, totalCost) {
     this.updateElement('yearlyExpenses', `$${yearlyExpenses.toFixed(2)}`);
 }
 
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
 
             async deleteExpense(id) {
                 const confirmed = await modal.confirm('¿Estás seguro de que deseas eliminar este gasto?');
@@ -4589,43 +3896,6 @@ async function processPurchase(serviceId, profilesToBuy, totalCost) {
             }
 
             generateMonthlyReport() {
-<<<<<<< HEAD
-                const now = new Date();
-                const currentMonth = now.getMonth();
-                const currentYear = now.getFullYear();
-
-                const monthSales = sales.filter(sale => {
-                    const saleDate = new Date(sale.startDate);
-                    return saleDate.getMonth() === currentMonth && saleDate.getFullYear() === currentYear;
-                });
-
-                const monthlyRevenue = monthSales.reduce((sum, sale) => sum + parseFloat(sale.total || 0), 0);
-
-                const monthlyExpenses = this.expenses.filter(expense => {
-                    const expenseDate = normalizeDate(expense.createdAt);
-                    return expenseDate.getMonth() === currentMonth && expenseDate.getFullYear() === currentYear;
-                }).reduce((sum, expense) => sum + (parseFloat(expense.amount) || 0), 0);
-
-                const monthlyNetProfit = monthlyRevenue - monthlyExpenses;
-
-                const activeAccounts = accounts.filter(acc => acc.status === 'Disponible').length;
-                const occupiedAccounts = accounts.filter(acc => acc.status === 'Ocupado').length;
-                const unavailableAccounts = accounts.filter(acc => acc.status === 'No disponible').length;
-
-                const reportContent = `
-                    <p><strong>Mes:</strong> ${new Date(currentYear, currentMonth).toLocaleString('es-ES', { month: 'long', year: 'numeric' })}</p>
-                    <p><strong>Ingresos Totales:</strong> $${monthlyRevenue.toFixed(2)}</p>
-                    <p><strong>Gastos Totales:</strong> $${monthlyExpenses.toFixed(2)}</p>
-                    <p><strong>Ganancia Neta:</strong> $${monthlyNetProfit.toFixed(2)}</p>
-                    <br>
-                    <p><strong>Cuentas Disponibles:</strong> ${activeAccounts}</p>
-                    <p><strong>Cuentas Ocupadas:</strong> ${occupiedAccounts}</p>
-                    <p><strong>Cuentas No Disponibles:</strong> ${unavailableAccounts}</p>
-                `;
-
-                modal.alert(reportContent, 'Reporte Mensual', 'info');
-            }
-=======
     const now = new Date();
     const currentMonth = now.getMonth();
     const currentYear = now.getFullYear();
@@ -4662,7 +3932,6 @@ async function processPurchase(serviceId, profilesToBuy, totalCost) {
     modal.alert(reportContent, 'Reporte Mensual', 'info');
 }
 
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
 
             generateAccountReport() {
                 modal.alert('Generando reporte por cuentas... (Funcionalidad en desarrollo)', 'Reporte por Cuentas', 'info');
@@ -4670,279 +3939,6 @@ async function processPurchase(serviceId, profilesToBuy, totalCost) {
         }
 
         // ============= GESTIÓN DE USUARIOS (ADMIN) =============
-<<<<<<< HEAD
-class UserManager {
-    constructor() {
-        this.allUsers = []; // Todos los usuarios
-        this.filteredUsers = [];
-        this.initAdminButtonLock();
-    }
-
-    // 🔹 Bloquear botones hasta que admin esté listo
-    initAdminButtonLock() {
-        document.querySelectorAll('.btn-admin').forEach(btn => btn.disabled = true);
-        firebase.auth().onAuthStateChanged(user => {
-            if (user && user.uid === ADMIN_UID) {
-                document.querySelectorAll('.btn-admin').forEach(btn => btn.disabled = false);
-            }
-        });
-    }
-
-    // 🔹 Cargar todos los usuarios desde Firestore
-    async loadAllUsers() {
-        if (!db || !currentUser || currentUser.uid !== ADMIN_UID) {
-            console.warn('⚠️ Solo el administrador puede cargar todos los usuarios.');
-            return;
-        }
-        try {
-            const usersSnapshot = await db.collection('users').orderBy('createdAt', 'desc').get();
-            this.allUsers = usersSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-            this.filterAndSortUsers();
-            console.log('✅ Usuarios cargados desde Firebase correctamente.');
-        } catch (error) {
-            console.error('❌ Error al cargar usuarios desde Firebase:', error);
-            modal.toast('Error al cargar usuarios desde la nube.', 'error');
-        }
-    }
-
-    filterAndSortUsers() {
-        const searchTerm = document.getElementById('clientSearchInput')?.value?.toLowerCase() || '';
-        const sortBy = document.getElementById('clientSortBy')?.value || 'name';
-        const sortOrder = document.getElementById('clientSortOrder')?.value || 'asc';
-
-        this.filteredUsers = this.allUsers.filter(user =>
-            user.name.toLowerCase().includes(searchTerm) ||
-            user.email.toLowerCase().includes(searchTerm) ||
-            (user.lastName && user.lastName.toLowerCase().includes(searchTerm))
-        );
-
-        this.filteredUsers.sort((a, b) => {
-            let valA, valB;
-            if (sortBy === 'balance') {
-                valA = a.balance || 0;
-                valB = b.balance || 0;
-            } else if (sortBy === 'createdAt') {
-                valA = normalizeDate(a.createdAt);
-                valB = normalizeDate(b.createdAt);
-            } else {
-                valA = a[sortBy]?.toLowerCase() || '';
-                valB = b[sortBy]?.toLowerCase() || '';
-            }
-
-            if (valA < valB) return sortOrder === 'asc' ? -1 : 1;
-            if (valA > valB) return sortOrder === 'asc' ? 1 : -1;
-            return 0;
-        });
-
-        this.renderAllUsersTable();
-    }
-
-    renderAllUsersTable() {
-        const tbody = document.querySelector('#allClientsTable tbody');
-        if (!tbody) return;
-
-        tbody.innerHTML = '';
-
-        if (this.filteredUsers.length === 0) {
-            tbody.innerHTML = '<tr><td colspan="5" class="no-data">No hay usuarios registrados que coincidan con la búsqueda.</td></tr>';
-            return;
-        }
-
-        this.filteredUsers.forEach(user => {
-            const row = document.createElement('tr');
-            row.innerHTML = `
-                <td>${escapeHTML(user.name)} ${escapeHTML(user.lastName || '')}</td>
-                <td>${escapeHTML(user.email)}</td>
-                <td>$${(user.balance || 0).toFixed(2)}</td>
-                <td>${normalizeDate(user.createdAt).toLocaleDateString()}</td>
-                <td>
-                    <button class="btn btn-success btn-sm btn-admin" onclick="userManager.openBalanceModal('${user.id}')" title="Gestionar Saldo"><i class="fas fa-wallet"></i></button>
-                    <button class="btn btn-info btn-sm btn-admin" onclick="userManager.viewBalanceHistory('${user.id}')" title="Ver Historial"><i class="fas fa-history"></i></button>
-                    <button class="btn btn-warning btn-sm btn-admin" onclick="userManager.resetUserPassword('${user.id}', '${user.email}')" title="Resetear Contraseña"><i class="fas fa-key"></i></button>
-                    <button class="btn btn-danger btn-sm btn-admin" onclick="userManager.deleteUser('${user.id}', '${user.email}')" title="Eliminar Usuario"><i class="fas fa-trash"></i></button>
-                </td>
-            `;
-            tbody.appendChild(row);
-        });
-    }
-
-    // 🔹 Modal para agregar o quitar saldo
-    openBalanceModal(userId) {
-        const user = this.allUsers.find(u => u.id === userId);
-        if (!user) return;
-
-        const formConfig = {
-            fields: [
-                { type: 'number', name: 'amount', label: 'Monto ($)', required: true, placeholder: '0.00', step: '0.01' },
-                { type: 'select', name: 'type', label: 'Tipo de Transacción', required: true, options: [{ value: 'add', text: 'Agregar Saldo' }, { value: 'subtract', text: 'Quitar Saldo' }] },
-                { type: 'textarea', name: 'comment', label: 'Comentario (opcional)', placeholder: 'Motivo de la transacción...' }
-            ]
-        };
-
-        modal.form(formConfig, `Gestionar Saldo de ${user.name}`).then(async data => {
-            if (!data) return;
-
-            const amount = parseFloat(data.amount);
-            const type = data.type;
-            const comment = sanitizeInput(data.comment || '');
-
-            if (isNaN(amount) || amount <= 0) {
-                modal.alert('El monto debe ser un número positivo.', 'Error de Monto', 'error');
-                return;
-            }
-
-            // 🔹 Esperar a que admin esté completamente autenticado
-            await new Promise(resolve => {
-                const check = setInterval(() => {
-                    const currentAdmin = firebase.auth().currentUser;
-                    if (currentAdmin && currentAdmin.uid === ADMIN_UID) {
-                        clearInterval(check);
-                        resolve();
-                    }
-                }, 100);
-            });
-
-            await this.updateUserBalance(userId, amount, type, comment);
-        });
-    }
-
-    // 🔹 Actualizar saldo del usuario y registrar transacción
-    async updateUserBalance(userId, amount, type, comment) {
-        const userRef = db.collection('users').doc(userId);
-        const userDoc = await userRef.get();
-        if (!userDoc.exists) {
-            modal.toast('Usuario no encontrado.', 'error');
-            return;
-        }
-
-        const userData = userDoc.data();
-        let newBalance = userData.balance || 0;
-        let transactionAmount = amount;
-        let transactionType = type === 'add' ? 'Recarga' : 'Ajuste Negativo';
-
-        if (type === 'add') newBalance += amount;
-        else if (type === 'subtract') {
-            newBalance -= amount;
-            transactionAmount = -amount;
-        }
-
-        if (newBalance < 0) {
-            modal.alert('El saldo no puede ser negativo.', 'Error de Saldo', 'error');
-            return;
-        }
-
-        try {
-            // Actualizar balance
-            await userRef.update({ balance: newBalance });
-
-            // Registrar transacción
-            await userRef.collection('transactions').add({
-                type: transactionType,
-                amount: transactionAmount,
-                comment: comment,
-                createdAt: firebase.firestore.FieldValue.serverTimestamp()
-            });
-
-            modal.toast(`Saldo de ${userData.name} actualizado a $${newBalance.toFixed(2)}.`, 'success');
-            await this.loadAllUsers(); // Recargar tabla
-
-        } catch (error) {
-            console.error('Error updating user balance:', error);
-            modal.toast(`Error al actualizar saldo: ${error.message}`, 'error');
-        }
-    }
-
-    // 🔹 Historial de saldo
-    async viewBalanceHistory(userId) {
-        const user = this.allUsers.find(u => u.id === userId);
-        if (!user) return;
-
-        let historyHtml = `
-            <div class="modal-header">
-                <h3><i class="fas fa-history"></i> Historial de Transacciones de ${escapeHTML(user.name)}</h3>
-                <button class="modal-close" type="button" onclick="modal.close()">&times;</button>
-            </div>
-            <div class="modal-body">
-                <p><strong>Saldo Actual:</strong> $${(user.balance || 0).toFixed(2)}</p>
-                <hr>
-                <div class="balance-history-list">
-        `;
-
-        try {
-            const transactionsSnapshot = await db.collection('users').doc(userId).collection('transactions').orderBy('createdAt', 'desc').get();
-            const transactions = transactionsSnapshot.docs.map(doc => doc.data());
-
-            if (transactions.length === 0) {
-                historyHtml += '<div class="no-data">No hay movimientos de saldo registrados.</div>';
-            } else {
-                transactions.forEach(entry => {
-                    const amountClass = entry.amount >= 0 ? 'positive' : 'negative';
-                    historyHtml += `
-                        <div class="balance-history-item">
-                            <div>
-                                <span class="amount ${amountClass}">${entry.amount >= 0 ? '+' : ''}$${entry.amount.toFixed(2)}</span><br>
-                                <span class="date">${normalizeDate(entry.createdAt).toLocaleString()}</span>
-                            </div>
-                            <div class="comment">${escapeHTML(entry.comment || entry.type || 'Sin comentario')}</div>
-                        </div>
-                    `;
-                });
-            }
-        } catch (error) {
-            console.error('Error fetching transactions:', error);
-            historyHtml += '<div class="no-data">Error al cargar el historial de transacciones.</div>';
-        }
-
-        historyHtml += `
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button class="btn" type="button" onclick="modal.close()">Cerrar</button>
-            </div>
-        `;
-
-        modal.open(historyHtml, { size: 'medium' });
-    }
-
-    // 🔹 Resetear contraseña
-    async resetUserPassword(userId, userEmail) {
-        const confirmed = await modal.confirm(`¿Deseas resetear la contraseña de ${userEmail}? Se enviará un email al usuario.`, 'Resetear Contraseña');
-        if (!confirmed) return;
-
-        try {
-            await auth.sendPasswordResetEmail(userEmail);
-            modal.toast(`Email de restablecimiento enviado a ${userEmail}.`, 'success');
-        } catch (error) {
-            console.error('Error resetting password:', error);
-            let msg = 'Error al resetear la contraseña.';
-            if (error.code === 'auth/user-not-found') msg = 'Usuario no encontrado.';
-            modal.toast(msg, 'error');
-        }
-    }
-
-    // 🔹 Eliminar usuario
-    async deleteUser(userId, userEmail) {
-        const confirmed = await modal.confirm(`Eliminar a ${userEmail}? Esto borrará su cuenta y transacciones. Acción irreversible.`, 'Confirmar Eliminación');
-        if (!confirmed) return;
-
-        try {
-            await db.collection('users').doc(userId).delete();
-            const transactionsRef = db.collection('users').doc(userId).collection('transactions');
-            const transactionsSnapshot = await transactionsRef.get();
-            const batch = db.batch();
-            transactionsSnapshot.docs.forEach(doc => batch.delete(doc.ref));
-            await batch.commit();
-
-            modal.toast(`Usuario ${userEmail} eliminado correctamente.`, 'success');
-            await this.loadAllUsers();
-        } catch (error) {
-            console.error('Error deleting user:', error);
-            modal.toast(`Error al eliminar usuario: ${error.message}`, 'error');
-        }
-    }
-}
-
-=======
         class UserManager {
             constructor() {
                 this.allUsers = []; // All users from Firestore 'users' collection
@@ -5463,7 +4459,6 @@ class UserManager {
             }
         }
 
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
         // ============= GESTIÓN DE SOLICITUDES DE RECARGA (ADMIN) =============
         class RechargeManager {
             constructor() {
@@ -5471,11 +4466,7 @@ class UserManager {
             }
 
             async loadRechargeRequests() {
-<<<<<<< HEAD
-                if (!db || !currentUser || currentUser.uid !== ADMIN_UID) {
-=======
                 if (!db || (currentUser && currentUser.uid !== ADMIN_UID && !isClaudeEnvironment)) {
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                     console.warn('⚠️ Solo el administrador puede cargar solicitudes de recarga.');
                     return;
                 }
@@ -5523,11 +4514,7 @@ class UserManager {
                 const card = document.createElement('div');
                 card.className = 'recharge-request-item';
 
-<<<<<<< HEAD
-                const client = users.find(u => u.id === request.clientId);
-=======
                 const client = webClients.find(wc => wc.id === request.clientId);
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                 const clientName = client ? `${client.name} ${client.lastName || ''}` : 'Usuario Desconocido';
                 const clientEmail = client ? client.email : 'N/A';
 
@@ -5546,17 +4533,10 @@ class UserManager {
                         <div><strong>Monto:</strong> $${request.amount.toFixed(2)}</div>
                         <div><strong>Banco:</strong> ${escapeHTML(request.bank)}</div>
                         <div><strong>Email:</strong> ${escapeHTML(clientEmail)}</div>
-<<<<<<< HEAD
-                        <div><strong>Fecha:</strong> ${normalizeDate(request.createdAt).toLocaleString()}</div>
-                        ${request.comment ? `<div><strong>Comentario:</strong> ${escapeHTML(request.comment)}</div>` : ''}
-                        ${request.processedBy ? `<div><strong>Procesado por:</strong> ${escapeHTML(request.processedBy)}</div>` : ''}
-                        ${request.processedAt ? `<div><strong>Fecha Proceso:</strong> ${normalizeDate(request.processedAt).toLocaleString()}</div>` : ''}
-=======
                         <div><strong>Fecha:</strong> ${(request.createdAt?.toDate() || new Date()).toLocaleString()}</div>
                         ${request.comment ? `<div><strong>Comentario:</strong> ${escapeHTML(request.comment)}</div>` : ''}
                         ${request.processedBy ? `<div><strong>Procesado por:</strong> ${escapeHTML(request.processedBy)}</div>` : ''}
                         ${request.processedAt ? `<div><strong>Fecha Proceso:</strong> ${(request.processedAt?.toDate() || new Date()).toLocaleString()}</div>` : ''}
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                     </div>
                     <div class="actions">
                         <a href="${escapeHTML(request.imageUrl)}" target="_blank" class="btn btn-info btn-sm">
@@ -5579,14 +4559,11 @@ class UserManager {
                 const confirmed = await modal.confirm(`¿Estás seguro de aprobar esta recarga de $${amount.toFixed(2)} para el cliente? Se agregará el saldo automáticamente.`, 'Aprobar Recarga');
                 if (!confirmed) return;
 
-<<<<<<< HEAD
-=======
                 if (isClaudeEnvironment) {
                     modal.toast('Funcionalidad no disponible en modo demo.', 'warning');
                     return;
                 }
 
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                 try {
                     const requestRef = db.collection('rechargeRequests').doc(requestId);
                     await requestRef.update({
@@ -5608,21 +4585,13 @@ class UserManager {
                             comment: `Recarga aprobada por admin. Solicitud ID: ${requestId}`,
                             createdAt: firebase.firestore.FieldValue.serverTimestamp()
                         });
-<<<<<<< HEAD
-                        modal.toast(`Recarga aprobada y saldo de $${newBalance.toFixed(2)} agregado al cliente.`, 'success');
-=======
                         modal.toast(`Recarga aprobada y saldo de $${newBalance.toFixed(2)} agregado al cliente.`, 'success'); // Changed to newBalance
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                     } else {
                         modal.toast('Cliente no encontrado, saldo no actualizado.', 'error');
                     }
 
                     await this.loadRechargeRequests();
-<<<<<<< HEAD
-                    await userManager.loadAllUsers();
-=======
                     await webClientManager.loadAllUsers(); // Update client list for balance changes
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                 } catch (error) {
                     console.error('Error approving recharge request:', error);
                     modal.toast(`Error al aprobar recarga: ${error.message}`, 'error');
@@ -5633,14 +4602,11 @@ class UserManager {
                 const confirmed = await modal.confirm('¿Estás seguro de rechazar esta recarga? El saldo NO se agregará.', 'Rechazar Recarga');
                 if (!confirmed) return;
 
-<<<<<<< HEAD
-=======
                 if (isClaudeEnvironment) {
                     modal.toast('Funcionalidad no disponible en modo demo.', 'warning');
                     return;
                 }
 
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                 try {
                     const requestRef = db.collection('rechargeRequests').doc(requestId);
                     await requestRef.update({
@@ -5658,32 +4624,6 @@ class UserManager {
         }
 
         // ============= INICIALIZACIÓN FIREBASE =============
-<<<<<<< HEAD
-async function initializeFirebase(config) {
-  try {
-    if (!firebase.apps.length) {
-      firebase.initializeApp(config);
-    }
-    db = firebase.firestore();
-    auth = firebase.auth();
-    await auth.setPersistence(firebase.auth.Auth.Persistence.LOCAL);
-    document.getElementById('configInfo').textContent = 'Estado: Firebase inicializado';
-    return true;
-  } catch (error) {
-    document.getElementById('configInfo').textContent = 'Error al inicializar Firebase';
-    modal.toast('Error al inicializar Firebase. Verifica la configuración y conexión.', 'error');
-    console.error('Error al inicializar Firebase:', error);
-    return false;
-  }
-}
-
-
-        function testFirebaseConnection() {
-            initializeFirebase(firebaseConfig);
-        }
-
-        // ============= FUNCIONES DE AUTENTICACIÓN (ADMIN & CLIENT) =============
-=======
         function initializeFirebase(config) {
             try {
                 if (!firebase.apps.length) {
@@ -5710,21 +4650,15 @@ async function initializeFirebase(config) {
         // ============= FUNCIONES DE AUTENTICACIÓN (ADMIN & CLIENT) =============
         let currentAuthMode = 'admin'; // 'admin' or 'client'
 
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
         function showAdminLogin() {
             document.getElementById('adminLoginScreen').style.display = 'flex';
             document.getElementById('clientLoginScreen').style.display = 'none';
             document.getElementById('clientRegisterScreen').style.display = 'none';
-<<<<<<< HEAD
-            document.getElementById('mainApp').style.display = 'none';
-            document.getElementById('clientApp').style.display = 'none';
-=======
             document.getElementById('adminDemoScreen').style.display = 'none';
             document.getElementById('clientDemoScreen').style.display = 'none';
             document.getElementById('mainApp').style.display = 'none';
             document.getElementById('clientApp').style.display = 'none';
             currentAuthMode = 'admin';
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
             hideLoginError('admin');
             showLoginLoading('admin', false);
         }
@@ -5733,16 +4667,11 @@ async function initializeFirebase(config) {
             document.getElementById('adminLoginScreen').style.display = 'none';
             document.getElementById('clientLoginScreen').style.display = 'flex';
             document.getElementById('clientRegisterScreen').style.display = 'none';
-<<<<<<< HEAD
-            document.getElementById('mainApp').style.display = 'none';
-            document.getElementById('clientApp').style.display = 'none';
-=======
             document.getElementById('adminDemoScreen').style.display = 'none';
             document.getElementById('clientDemoScreen').style.display = 'none';
             document.getElementById('mainApp').style.display = 'none';
             document.getElementById('clientApp').style.display = 'none';
             currentAuthMode = 'client';
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
             hideLoginError('client');
             showLoginLoading('client', false);
         }
@@ -5751,167 +4680,15 @@ async function initializeFirebase(config) {
             document.getElementById('adminLoginScreen').style.display = 'none';
             document.getElementById('clientLoginScreen').style.display = 'none';
             document.getElementById('clientRegisterScreen').style.display = 'flex';
-<<<<<<< HEAD
-            document.getElementById('mainApp').style.display = 'none';
-            document.getElementById('clientApp').style.display = 'none';
-=======
             document.getElementById('adminDemoScreen').style.display = 'none';
             document.getElementById('clientDemoScreen').style.display = 'none';
             document.getElementById('mainApp').style.display = 'none';
             document.getElementById('clientApp').style.display = 'none';
             currentAuthMode = 'client_register';
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
             hideLoginError('register');
             showLoginLoading('register', false);
         }
 
-<<<<<<< HEAD
-        // ======================= CHECK AUTH STATE =======================
-function checkAuthState() {
-    auth.onAuthStateChanged(async (user) => {
-        if (user) {
-            console.log('Usuario autenticado:', user.email, 'UID:', user.uid);
-
-            if (!financialManager) financialManager = new FinancialManager();
-            if (!userManager) userManager = new UserManager();
-            if (!rechargeManager) rechargeManager = new RechargeManager();
-
-            try {
-                await db.collection('services').limit(1).get(); // Probar conexión
-                console.log('✅ Firebase inicializado y conectado correctamente.');
-
-                if (user.uid === ADMIN_UID) {
-                    currentUser = { email: user.email, displayName: 'Admin', role: 'admin', uid: user.uid };
-
-                    await loadData();
-                    showMainApp('admin');
-                    financialManager.updateFinancialDashboard();
-                    userManager.loadAllUsers();
-                    rechargeManager.loadRechargeRequests();
-
-                    // ✅ Habilitar botones de admin solo después de inicializar todo
-                    enableAdminButtons();
-
-                } else {
-                    currentUser = { email: user.email, displayName: '', role: 'client', id: user.uid, uid: user.uid };
-                    await loadClientData(user.uid);
-                    await loadServices();
-                    await loadAccounts();
-
-                    const userData = users.find(u => u.id === user.uid);
-                    if (userData) {
-                        currentUser.displayName = userData.name;
-                        showMainApp('client');
-                        renderClientDashboard();
-                    } else {
-                        console.error('Usuario no encontrado en Firestore');
-                        await auth.signOut();
-                        modal.alert('Tu cuenta no está completamente configurada. Por favor, contacta a soporte o intenta registrarte de nuevo.', 'Error de Perfil', 'warning');
-                        showClientLogin();
-                    }
-                }
-            } catch (error) {
-                console.error('Error al probar conexión o cargar datos:', error);
-                await auth.signOut();
-                modal.toast('Error de permisos o conexión a Firestore. Intenta iniciar sesión de nuevo.', 'error');
-                showClientLogin();
-            }
-
-        } else {
-            console.log('No hay usuario autenticado');
-            currentUser = null;
-            accounts = [];
-            services = [];
-            clients = [];
-            sales = [];
-            users = [];
-            expenses = [];
-            rechargeRequests = [];
-            showAdminLogin();
-        }
-    });
-}
-
-// ======================= HABILITAR BOTONES ADMIN =======================
-function enableAdminButtons() {
-    // Por ejemplo, botón de agregar saldo
-    const addBalanceBtn = document.getElementById('addBalanceButton');
-    if (addBalanceBtn) addBalanceBtn.disabled = false;
-}
-
-// ======================= AGREGAR / AJUSTAR SALDO =======================
-async function updateUserBalance(userId, amount, type, comment) {
-    // ✅ Esperar a que admin esté autenticado
-    const admin = firebase.auth().currentUser;
-    if (!admin || admin.uid !== ADMIN_UID) {
-        modal.toast('Admin no autenticado aún.', 'error');
-        return;
-    }
-
-    const userRef = db.collection('users').doc(userId);
-    const userDoc = await userRef.get();
-    if (!userDoc.exists) {
-        modal.toast('Usuario no encontrado.', 'error');
-        return;
-    }
-
-    const userData = userDoc.data();
-    let newBalance = userData.balance || 0;
-    let transactionAmount = amount;
-    let transactionType = type === 'add' ? 'Recarga' : 'Ajuste Negativo';
-
-    if (type === 'add') {
-        newBalance += amount;
-    } else if (type === 'subtract') {
-        newBalance -= amount;
-        transactionAmount = -amount;
-    }
-
-    if (newBalance < 0) {
-        modal.alert('El saldo no puede ser negativo.', 'Error de Saldo', 'error');
-        return;
-    }
-
-    try {
-        // Actualizar balance
-        await userRef.update({ balance: newBalance });
-
-        // Registrar transacción
-        await userRef.collection('transactions').add({
-            type: transactionType,
-            amount: transactionAmount,
-            comment: comment,
-            createdAt: firebase.firestore.FieldValue.serverTimestamp()
-        });
-
-        modal.toast(`Saldo de ${userData.name} actualizado a $${newBalance.toFixed(2)}.`, 'success');
-
-        // Recargar tabla de usuarios o datos necesarios
-        if (userManager && typeof userManager.loadAllUsers === 'function') {
-            await userManager.loadAllUsers();
-        }
-
-    } catch (error) {
-        console.error('Error updating user balance:', error);
-        modal.toast(`Error al actualizar saldo: ${error.message}`, 'error');
-    }
-}
-
-// ======================= EJEMPLO DE BOTÓN PARA ADMIN =======================
-document.getElementById('addBalanceButton')?.addEventListener('click', async () => {
-    if (!currentUser || currentUser.role !== 'admin') {
-        modal.toast('Admin no autenticado aún.', 'error');
-        return;
-    }
-
-    // Abrir modal de saldo
-    const { userId, amount } = await modal.promptAdminAddBalance(); // tu modal personalizado
-    if (!userId || !amount) return;
-
-    await updateUserBalance(userId, parseFloat(amount), 'add', 'Recarga realizada por admin');
-});
-
-=======
         function showAdminDemoMode() {
             document.getElementById('adminLoginScreen').style.display = 'none';
             document.getElementById('clientLoginScreen').style.display = 'none';
@@ -6077,7 +4854,6 @@ async function loadClientData(userId) {
     }
 }
 
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
 
         async function loginAdmin() {
             const email = document.getElementById('adminLoginEmail').value.trim();
@@ -6091,12 +4867,6 @@ async function loadClientData(userId) {
             showLoginLoading('admin', true);
             hideLoginError('admin');
 
-<<<<<<< HEAD
-            try {
-            const userCredential = await auth.signInWithEmailAndPassword(email, password);
-                if (userCredential.user.uid !== ADMIN_UID) {
-                    await auth.signOut();
-=======
             if (isClaudeEnvironment) {
                 if (email === 'admin@demo.com' && password === 'admin123') {
                     await enterAdminDemoMode(); // Use await here
@@ -6111,15 +4881,11 @@ async function loadClientData(userId) {
                 const userCredential = await firebase.auth().signInWithEmailAndPassword(email, password);
                 if (userCredential.user.uid !== ADMIN_UID) { // Ensure only specific admin email can log in as admin
                     await firebase.auth().signOut();
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                     showLoginError('Acceso denegado. Este email no es un administrador.', 'admin');
                     return;
                 }
                 console.log('Admin autenticado con éxito.');
-<<<<<<< HEAD
-=======
                 // The onAuthStateChanged listener will handle the rest
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
             } catch (error) {
                 console.error('Error de autenticación admin:', error);
                 showLoginLoading('admin', false);
@@ -6127,144 +4893,6 @@ async function loadClientData(userId) {
             }
         }
 
-<<<<<<< HEAD
-async function loginClient() {
-  const emailInput = document.getElementById('clientLoginEmail');
-  const passwordInput = document.getElementById('clientLoginPassword');
-
-  if (!emailInput || !passwordInput) {
-    console.error('No se encontraron los campos de email o contraseña en el DOM.');
-    modal.toast('Error interno: campos de login no encontrados.', 'error');
-    return;
-  }
-
-  const email = emailInput.value.trim().toLowerCase();
-  const password = passwordInput.value.trim();
-
-  if (!email || !password) {
-    showLoginError('Por favor completa todos los campos.', 'client');
-    return;
-  }
-
-  showLoginLoading('client', true);
-  hideLoginError('client');
-
-  try {
-    console.log("LoginClient: email", email, "password length", password.length);
-
-    // ✅ Inicia sesión, no crear usuario
-    const userCredential = await auth.signInWithEmailAndPassword(email, password);
-    const user = userCredential.user;
-
-    // Verificar si existe en Firestore
-    const userDoc = await db.collection('users').doc(user.uid).get();
-    if (!userDoc.exists) {
-      await auth.signOut();
-      showLoginError('Tu cuenta no está configurada en la base de datos.', 'client');
-      return;
-    }
-
-    console.log('Cliente autenticado con Firestore ok.');
-  } catch (error) {
-    console.error('Error loginClient:', error.code, error.message);
-    showLoginError(getFirebaseErrorMessage(error), 'client');
-  } finally {
-    showLoginLoading('client', false);
-  }
-}
-
-
-
-
-async function registerClient() {
-    const name = document.getElementById('registerName').value.trim();
-    const email = document.getElementById('registerEmail').value.trim().toLowerCase();
-    const password = document.getElementById('registerPassword').value.trim();
-    const confirmPassword = document.getElementById('registerConfirmPassword').value.trim();
-    let phone = document.getElementById('registerPhone').value.trim();
-
-    // Validaciones básicas
-    if (!name || !email || !password || !confirmPassword || !phone) {
-        showLoginError('Por favor completa todos los campos obligatorios.', 'register');
-        return;
-    }
-
-    if (password !== confirmPassword) {
-        showLoginError('Las contraseñas no coinciden.', 'register');
-        return;
-    }
-
-    if (password.length < 6) {
-        showLoginError('La contraseña debe tener al menos 6 caracteres.', 'register');
-        return;
-    }
-
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
-        showLoginError('El formato del email es inválido.', 'register');
-        return;
-    }
-
-    // Validación y formato de teléfono ecuatoriano
-    phone = formatEcuadorianPhone(phone);
-    if (!phone) {
-        showLoginError('Formato de teléfono ecuatoriano inválido. Ej: 09XXXXXXXX o +593XXXXXXXXX', 'register');
-        return;
-    }
-
-    showLoginLoading('register', true);
-    hideLoginError('register');
-
-    try {
-        console.log("Registrando usuario con email:", email); // Log de depuración
-
-        // Crear usuario en Firebase Auth
-        const userCredential = await auth.createUserWithEmailAndPassword(email, password);
-        const uid = userCredential.user.uid;
-
-        // Datos que se guardarán en Firestore
-        const newUserData = {
-            id: uid,
-            name: sanitizeInput(name),
-            email: sanitizeInput(email),
-            phone: phone,
-            balance: 0,
-            role: 'client',
-            adminUID: ADMIN_UID,
-            createdAt: firebase.firestore.FieldValue.serverTimestamp(),
-            purchases: []
-        };
-
-        // Guardar usuario en Firestore usando UID como ID del documento
-        await db.collection('users').doc(uid).set(newUserData);
-
-        console.log("Usuario registrado correctamente en Auth y Firestore:", uid);
-        modal.toast('Registro exitoso. Ya puedes iniciar sesión.', 'success');
-        showClientLogin();
-    } catch (error) {
-        console.error('Error al registrar cliente:', error.code, error.message);
-        showLoginError(getFirebaseErrorMessage(error), 'register');
-    } finally {
-        showLoginLoading('register', false);
-    }
-}
-
-        async function logoutAdmin() {
-    const confirmed = await modal.confirm('¿Estás seguro de que deseas cerrar sesión del administrador?');
-    console.log('Confirmación recibida:', confirmed);
-    if (confirmed) {
-        try {
-            await auth.signOut();
-            console.log('Admin desconectado.');
-        } catch (error) {
-            console.error('Error al cerrar sesión admin:', error);
-            modal.alert('Error al cerrar sesión: ' + error.message, 'Error', 'error');
-        }
-    } else {
-        console.log('Cierre de sesión cancelado por el usuario.');
-    }
-}
-=======
         async function loginClient() {
             const email = document.getElementById('loginEmail').value.trim().toLowerCase();
             const password = document.getElementById('clientLoginPassword').value.trim();
@@ -6445,19 +5073,10 @@ function formatEcuadorianPhone(phone) {
                 }
             }
         }
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
 
         async function logoutClient() {
             const confirmed = await modal.confirm('¿Estás seguro de que deseas cerrar sesión de tu portal?');
             if (confirmed) {
-<<<<<<< HEAD
-                try {
-                    await auth.signOut();
-                    console.log('Cliente desconectado.');
-                } catch (error) {
-                    console.error('Error al cerrar sesión cliente:', error);
-                    modal.alert('Error al cerrar sesión: ' + error.message, 'Error', 'error');
-=======
                 if (isClaudeEnvironment) {
                     currentUser = null;
                     showClientDemoMode();
@@ -6469,7 +5088,6 @@ function formatEcuadorianPhone(phone) {
                         console.error('Error al cerrar sesión cliente:', error);
                         modal.alert('Error al cerrar sesión: ' + error.message, 'Error', 'error');
                     }
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                 }
             }
         }
@@ -6478,11 +5096,8 @@ function formatEcuadorianPhone(phone) {
             document.getElementById('adminLoginScreen').style.display = 'none';
             document.getElementById('clientLoginScreen').style.display = 'none';
             document.getElementById('clientRegisterScreen').style.display = 'none';
-<<<<<<< HEAD
-=======
             document.getElementById('adminDemoScreen').style.display = 'none';
             document.getElementById('clientDemoScreen').style.display = 'none';
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
 
             if (role === 'admin') {
                 document.getElementById('mainApp').style.display = 'block';
@@ -6492,10 +5107,7 @@ function formatEcuadorianPhone(phone) {
                     userEmailElement.textContent = currentUser.email;
                 }
                 updateDashboard();
-<<<<<<< HEAD
-=======
                 // Use setTimeout to ensure the DOM is ready and sections are properly displayed
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                 setTimeout(() => {
                     showSection('dashboard');
                 }, 100);
@@ -6532,16 +5144,6 @@ function formatEcuadorianPhone(phone) {
             }
         }
 
-<<<<<<< HEAD
-        // ============= FUNCIONES DE DATOS (CRUD) =============
-        async function loadData() {
-            if (!financialManager) financialManager = new FinancialManager();
-            if (!userManager) userManager = new UserManager();
-            if (!rechargeManager) rechargeManager = new RechargeManager();
-            
-            await loadFromFirebase();
-            
-=======
         function getFirebaseErrorMessage(error) {
             let errorMessage = 'Error de autenticación';
             let helpMessage = '';
@@ -6605,145 +5207,56 @@ function formatEcuadorianPhone(phone) {
 
 
 
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
             renderAll();
             updateDashboard();
             financialManager.updateFinancialDashboard();
             if (currentUser && currentUser.role === 'admin') {
-<<<<<<< HEAD
-                userManager.loadAllUsers();
-                rechargeManager.loadRechargeRequests();
-=======
                 webClientManager.loadAllUsers(); // Load all users for admin view
                 rechargeManager.loadRechargeRequests(); // Load recharge requests for admin view
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
             }
         }
 
-        async function loadFromFirebase() {
-            console.log('🔥 Cargando datos desde Firebase...');
-            
-<<<<<<< HEAD
-=======
-            // Verificar que el usuario actual es admin
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
-            if (!currentUser || currentUser.uid !== ADMIN_UID) {
-                console.warn('⚠️ Solo el administrador puede cargar todos los datos.');
-                return;
-            }
-            
-            try {
-<<<<<<< HEAD
-                const [accountsSnapshot, clientsSnapshot, salesSnapshot, usersSnapshot, rechargeRequestsSnapshot, servicesSnapshot] = await Promise.all([
-=======
-                const [accountsSnapshot, clientsSnapshot, salesSnapshot, usersSnapshot, rechargeRequestsSnapshot] = await Promise.all([
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
-                    db.collection('accounts').orderBy('createdAt', 'desc').get(),
-                    db.collection('clients').orderBy('createdAt', 'desc').get(),
-                    db.collection('sales').orderBy('createdAt', 'desc').get(),
-                    db.collection('users').orderBy('createdAt', 'desc').get(),
-<<<<<<< HEAD
-                    db.collection('rechargeRequests').orderBy('createdAt', 'desc').get(),
-                    db.collection('services').orderBy('createdAt', 'desc').get()
-=======
-                    db.collection('rechargeRequests').orderBy('createdAt', 'desc').get()
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
-                ]);
+        // Update your loadFromFirebase function to include services
+// Find this function around line 1600 and replace the Promise.all section:
 
-                accounts = accountsSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-                clients = clientsSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-                sales = salesSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-<<<<<<< HEAD
-                users = usersSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-                rechargeRequests = rechargeRequestsSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-                services = servicesSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-=======
-                webClients = usersSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-                rechargeRequests = rechargeRequestsSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
+async function loadFromFirebase() {
+    console.log('🔥 Cargando datos desde Firebase...');
+    
+    // Verificar que el usuario actual es admin
+    if (!currentUser || currentUser.uid !== ADMIN_UID) {
+        console.warn('⚠️ Solo el administrador puede cargar todos los datos.');
+        return;
+    }
+    
+    try {
+        const [accountsSnapshot, clientsSnapshot, salesSnapshot, usersSnapshot, rechargeRequestsSnapshot, servicesSnapshot] = await Promise.all([
+            db.collection('accounts').orderBy('createdAt', 'desc').get(),
+            db.collection('clients').orderBy('createdAt', 'desc').get(),
+            db.collection('sales').orderBy('createdAt', 'desc').get(),
+            db.collection('users').orderBy('createdAt', 'desc').get(),
+            db.collection('rechargeRequests').orderBy('createdAt', 'desc').get(),
+            db.collection('services').orderBy('createdAt', 'desc').get()
+        ]);
 
-                if (financialManager) {
-                    await financialManager.loadExpensesFromFirebase();
-                }
+        accounts = accountsSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+        clients = clientsSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+        sales = salesSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+        webClients = usersSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+        rechargeRequests = rechargeRequestsSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+        services = servicesSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
 
-                console.log('✅ Datos cargados desde Firebase correctamente.');
-            } catch (error) {
-                console.error('❌ Error al cargar datos desde Firebase:', error);
-                modal.toast('Error al cargar datos desde la nube.', 'error');
-                throw error;
-            }
+        if (financialManager) {
+            await financialManager.loadExpensesFromFirebase();
         }
 
-<<<<<<< HEAD
-        async function loadClientData(userId) {
-            if (db) {
-                try {
-                    console.log('🔥 Cargando datos del cliente desde Firebase...');
-                    const userDocRef = db.collection('users').doc(userId);
-                    let attempts = 0;
-                    const maxAttempts = 5;
-                    const delay = 1000;
+        console.log('✅ Datos cargados desde Firebase correctamente.');
+    } catch (error) {
+        console.error('❌ Error al cargar datos desde Firebase:', error);
+        modal.toast('Error al cargar datos desde la nube.', 'error');
+        throw error;
+    }
+}
 
-                    while (attempts < maxAttempts) {
-                        const userDoc = await userDocRef.get();
-                        if (userDoc.exists) {
-                            users = [{ id: userDoc.id, ...userDoc.data() }];
-                            console.log('✅ Datos del cliente cargados desde Firebase correctamente.');
-                            return;
-                        } else {
-                            console.warn(`Intento ${attempts + 1}: Documento no encontrado. Reintentando...`);
-                            attempts++;
-                            await new Promise(resolve => setTimeout(resolve, delay));
-                        }
-                    }
-                    console.error('❌ Error: No se pudo cargar el documento del cliente después de varios intentos.');
-                    modal.toast('Error al cargar tus datos. Por favor, intenta de nuevo.', 'error');
-                    throw new Error('Documento no encontrado después de varios intentos.');
-                } catch (error) {
-                    console.error("Error cargando datos del cliente desde Firebase:", error);
-                    modal.toast('Error al cargar tus datos. Por favor, intenta de nuevo.', 'error');
-                    throw error;
-                }
-            }
-        }
-
-        async function loadAccounts() {
-            const snapshot = await db.collection('accounts').get();
-            accounts = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-        }
-
-        async function loadServices() {
-            const snapshot = await db.collection('services').get();
-            services = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-            renderAvailableAccountsCatalog();
-        }
-
-        async function saveToFirebase(collectionName, data) {
-            if (!db) {
-                console.warn(`Saltando guardado en Firebase para ${collectionName}/${data.id}. No conectado.`);
-                return Promise.resolve();
-            }
-
-            if (collectionName === 'users') {
-                if (!currentUser) {
-                    console.warn('No hay usuario autenticado para guardar en la colección users.');
-                    modal.toast('No tienes permiso para modificar datos de usuarios.', 'error');
-                    return Promise.reject(new Error('Permission denied: No authenticated user.'));
-                }
-                if (currentUser.uid !== ADMIN_UID && currentUser.uid !== data.id) {
-                    console.warn(`Usuario ${currentUser.uid} intentó guardar datos de otro usuario ${data.id}. Operación denegada.`);
-                    modal.toast('No tienes permiso para modificar datos de otros usuarios.', 'error');
-                    return Promise.reject(new Error('Permission denied: Cannot modify other users.'));
-                }
-                // For non-admin users, restrict fields they can update if needed
-                // Example: if (currentUser.uid !== ADMIN_UID) { delete data.balance; }
-            } else { // For other collections (accounts, clients, sales, expenses, rechargeRequests, services)
-                if (!currentUser || currentUser.uid !== ADMIN_UID) {
-                    console.warn(`Usuario ${currentUser.uid} intentó guardar en ${collectionName}. Operación denegada.`);
-                    modal.toast('No tienes permiso para modificar estos datos.', 'error');
-                    return Promise.reject(new Error('Permission denied: Not admin.'));
-                }
-=======
         async function saveToFirebase(collectionName, data) {
             if (!db || isClaudeEnvironment) {
                 console.warn(`Saltando guardado en Firebase para ${collectionName}/${data.id}. No conectado o modo demo.`);
@@ -6755,17 +5268,12 @@ function formatEcuadorianPhone(phone) {
                 console.warn(`Usuario ${currentUser.uid} intentó guardar datos de otro usuario ${data.id}. Operación denegada.`);
                 modal.toast('No tienes permiso para modificar datos de otros usuarios.', 'error');
                 return Promise.reject(new Error('Permission denied'));
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
             }
 
             console.log(`💾 Guardando en Firebase: ${collectionName}/${data.id}`);
             
             try {
-<<<<<<< HEAD
-                await db.collection(collectionName).doc(data.id).set(data, { merge: true });
-=======
                 await db.collection(collectionName).doc(data.id).set(data, { merge: true }); // Use merge to avoid overwriting
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                 console.log(`✅ Guardado en Firebase: ${collectionName}/${data.id}`);
             } catch (error) {
                 console.error(`❌ Error guardando en Firebase ${collectionName}/${data.id}:`, error);
@@ -6775,17 +5283,6 @@ function formatEcuadorianPhone(phone) {
         }
 
         async function deleteFromFirebase(collectionName, id) {
-<<<<<<< HEAD
-            if (!db) {
-                console.warn(`Saltando eliminación en Firebase para ${collectionName}/${id}. No conectado.`);
-                return Promise.resolve();
-            }
-
-            if (!currentUser || currentUser.uid !== ADMIN_UID) {
-                console.warn(`Usuario ${currentUser.uid} intentó eliminar de ${collectionName}/${id}. Operación denegada.`);
-                modal.toast('No tienes permiso para eliminar datos.', 'error');
-                return Promise.reject(new Error('Permission denied: Not admin.'));
-=======
             if (!db || isClaudeEnvironment) {
                 console.warn(`Saltando eliminación en Firebase para ${collectionName}/${id}. No conectado o modo demo.`);
                 return Promise.resolve();
@@ -6796,7 +5293,6 @@ function formatEcuadorianPhone(phone) {
                 console.warn(`Usuario ${currentUser.uid} intentó eliminar de ${collectionName}/${id}. Operación denegada.`);
                 modal.toast('No tienes permiso para eliminar datos.', 'error');
                 return Promise.reject(new Error('Permission denied'));
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
             }
 
             console.log(`🗑️ Eliminando de Firebase: ${collectionName}/${id}`);
@@ -6810,8 +5306,6 @@ function formatEcuadorianPhone(phone) {
             }
         }
 
-<<<<<<< HEAD
-=======
         function loadDemoData() {
             // Only load if data is empty or explicitly requested for demo mode
             if (accounts.length === 0 || isClaudeEnvironment) {
@@ -7129,16 +5623,12 @@ function formatEcuadorianPhone(phone) {
             }
         }
 
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
         // ============= FUNCIONES DE UI (ADMIN) =============
         function showSection(sectionId) {
             const sections = document.querySelectorAll('.section');
             const buttons = document.querySelectorAll('.nav-btn');
             
-<<<<<<< HEAD
-=======
             // Validar que existan los elementos
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
             if (sections.length === 0 || buttons.length === 0) {
                 console.warn('DOM elements not ready yet, retrying...');
                 setTimeout(() => showSection(sectionId), 100);
@@ -7146,19 +5636,6 @@ function formatEcuadorianPhone(phone) {
             }
             
             sections.forEach(section => {
-<<<<<<< HEAD
-                section.classList.remove('active');
-                section.setAttribute('hidden', 'true');
-            });
-            
-            buttons.forEach(btn => {
-                btn.classList.remove('active');
-                btn.setAttribute('aria-selected', 'false');
-            });
-            
-            const targetSection = document.getElementById(sectionId);
-            if (targetSection) {
-=======
                 if (section.classList) {
                     section.classList.remove('active');
                     section.setAttribute('hidden', 'true');
@@ -7174,25 +5651,17 @@ function formatEcuadorianPhone(phone) {
             
             const targetSection = document.getElementById(sectionId);
             if (targetSection && targetSection.classList) {
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                 targetSection.classList.add('active');
                 targetSection.removeAttribute('hidden');
             }
             
-<<<<<<< HEAD
-=======
             // Encontrar el botón activo de manera más segura
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
             const activeButton = Array.from(buttons).find(btn => {
                 const controls = btn.getAttribute('onclick');
                 return controls && controls.includes(`'${sectionId}'`);
             });
             
-<<<<<<< HEAD
-            if (activeButton) {
-=======
             if (activeButton && activeButton.classList) {
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                 activeButton.classList.add('active');
                 activeButton.setAttribute('aria-selected', 'true');
             }
@@ -7201,29 +5670,17 @@ function formatEcuadorianPhone(phone) {
                 updateDashboard();
             } else if (sectionId === 'finances' && financialManager) {
                 financialManager.updateFinancialDashboard();
-<<<<<<< HEAD
-                financialManager.showFinanceTab('overview', { currentTarget: document.querySelector('.finance-tabs .tab-btn.active') });
-            } else if (sectionId === 'webClients' && userManager) {
-                userManager.loadAllUsers();
-            } else if (sectionId === 'rechargeRequests' && rechargeManager) {
-                rechargeManager.loadRechargeRequests();
-=======
                 financialManager.showFinanceTab('overview', { currentTarget: document.querySelector('.finance-tabs .tab-btn.active') }); // Pass event object for tab activation
             } else if (sectionId === 'webClients' && webClientManager) {
                 webClientManager.loadAllUsers(); // Ensure latest users are loaded
             } else if (sectionId === 'rechargeRequests' && rechargeManager) {
                 rechargeManager.loadRechargeRequests(); // Ensure latest requests are loaded
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
             }
         }
 
         function updateDashboard() {
             document.getElementById('totalAccounts').textContent = accounts.length;
-<<<<<<< HEAD
-            document.getElementById('totalClients').textContent = users.length;
-=======
             document.getElementById('totalClients').textContent = webClients.length; // All registered users
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
             
             const thisMonth = new Date().getMonth();
             const thisYear = new Date().getFullYear();
@@ -7307,19 +5764,12 @@ function formatEcuadorianPhone(phone) {
                 modal.toast(`Estado de cuenta actualizado a "${newStatus}"`, 'success');
             } catch (error) {
                 console.error('Error updating account status:', error);
-<<<<<<< HEAD
-                accounts[accountIndex].status = oldStatus;
-=======
                 accounts[accountIndex].status = oldStatus; // Revert on error
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                 renderAccounts();
                 modal.toast(`Error al actualizar el estado: ${error.message}`, 'error');
             }
         }
 
-<<<<<<< HEAD
-        function renderClients() {
-=======
         function renderClientDashboard() {
             const userCurrentBalanceElement = document.getElementById('userCurrentBalance');
             const clientBalanceElement = document.getElementById('clientBalance');
@@ -7788,18 +6238,13 @@ function formatEcuadorianPhone(phone) {
         function renderClients() {
             // This function is for manual clients, which are now deprecated in favor of 'users'
             // Keeping it for compatibility with existing demo data, but it won't be used for new registrations.
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
             const tbody = document.querySelector('#clientsTable tbody');
             if (!tbody) return;
             
             tbody.innerHTML = '';
 
             if (clients.length === 0) {
-<<<<<<< HEAD
-                tbody.innerHTML = '<tr><td colspan="6" class="no-data">No hay clientes manuales registrados.</td></tr>';
-=======
                 tbody.innerHTML = '<tr><td colspan="6" class="no-data">No hay clientes registrados.</td></tr>';
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                 return;
             }
 
@@ -7812,11 +6257,7 @@ function formatEcuadorianPhone(phone) {
                     <td>${client.purchases}</td>
                     <td>${client.lastPurchase ? new Date(client.lastPurchase).toLocaleDateString() : 'Nunca'}</td>
                     <td>
-<<<<<<< HEAD
-                        <button class="btn btn-sm" onclick="openAddClientModal('${client.id}')" title="Editar" aria-label="Editar cliente ${escapeHTML(client.name)}" tabindex="0"><i class="fas fa-edit" aria-hidden="true"></i></button>
-=======
                         <button class="btn btn-sm" onclick="editClient('${client.id}')" title="Editar" aria-label="Editar cliente ${escapeHTML(client.name)}" tabindex="0"><i class="fas fa-edit" aria-hidden="true"></i></button>
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                         <button class="btn btn-danger btn-sm" onclick="deleteClient('${client.id}')" title="Eliminar" aria-label="Eliminar cliente ${escapeHTML(client.name)}" tabindex="0"><i class="fas fa-trash" aria-hidden="true"></i></button>
                     </td>
                 `;
@@ -7836,11 +6277,7 @@ function formatEcuadorianPhone(phone) {
             }
 
             sales.forEach(sale => {
-<<<<<<< HEAD
-                const client = clients.find(c => c.id === sale.clientId) || users.find(u => u.id === sale.clientId);
-=======
                 const client = clients.find(c => c.id === sale.clientId) || webClients.find(wc => wc.id === sale.clientId);
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                 const account = accounts.find(a => a.id === sale.accountId);
                 
                 const today = new Date();
@@ -7902,806 +6339,32 @@ function formatEcuadorianPhone(phone) {
                 modal.toast(`Estado de pago de venta actualizado a "${newPaidStatus ? 'Pagado' : 'Pendiente'}"`, 'success');
             } catch (error) {
                 console.error('Error updating sale payment status:', error);
-<<<<<<< HEAD
-                sales[saleIndex].paid = oldSale.paid;
-=======
                 sales[saleIndex].paid = oldSale.paid; // Revert on error
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                 renderSales();
                 modal.toast(`Error al actualizar el estado de pago: ${error.message}`, 'error');
             }
         }
 
-<<<<<<< HEAD
-        function renderServices() {
-            const tbody = document.querySelector('#servicesTable tbody');
-            if (!tbody) return;
-            tbody.innerHTML = '';
+        // Update your renderAll() function to include services:
 
-            if (services.length === 0) {
-                tbody.innerHTML = '<tr><td colspan="6" class="no-data">No hay servicios registrados.</td></tr>';
-                return;
-            }
-
-            services.forEach(service => {
-                const availableProfilesCount = accounts.filter(acc => 
-                    acc.platform === service.platform && acc.status === 'Disponible' && acc.profiles.some(p => p.available)
-                ).reduce((sum, acc) => sum + acc.profiles.filter(p => p.available).length, 0);
-
-                const row = document.createElement('tr');
-                row.innerHTML = `
-                    <td><img src="${escapeHTML(service.imageUrl)}" alt="${escapeHTML(service.name)}" style="width: 50px; height: 50px; object-fit: cover; border-radius: 5px;"></td>
-                    <td>${escapeHTML(service.name)}</td>
-                    <td>$${(service.price || 0).toFixed(2)}</td>
-                    <td>${escapeHTML(service.description.substring(0, 50))}...</td>
-                    <td>${availableProfilesCount}</td>
-                    <td>
-                        <button class="btn btn-sm" onclick="openAddServiceModal('${service.id}')" title="Editar" aria-label="Editar servicio ${escapeHTML(service.name)}" tabindex="0"><i class="fas fa-edit"></i></button>
-                        <button class="btn btn-danger btn-sm" onclick="deleteService('${service.id}')" title="Eliminar" aria-label="Eliminar servicio ${escapeHTML(service.name)}" tabindex="0"><i class="fas fa-trash"></i></button>
-                    </td>
-                `;
-                tbody.appendChild(row);
-            });
-        }
-
-        function renderAll() {
-            renderAccounts();
-            renderClients();
-            renderSales();
-            renderServices();
-=======
-        function renderAll() {
-            renderAccounts();
-            renderClients(); // For manual clients (if any)
-            renderSales();
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
-            if (financialManager) {
-                financialManager.renderExpensesTable();
-                financialManager.renderFinancialAccountsTable();
-            }
-<<<<<<< HEAD
-            if (userManager) {
-                userManager.renderAllUsersTable();
-            }
-            if (rechargeManager) {
-                rechargeManager.renderRechargeRequests();
-=======
-            if (webClientManager) {
-                webClientManager.renderAllUsersTable(); // Render all users for admin view
-            }
-            if (rechargeManager) {
-                rechargeManager.renderRechargeRequests(); // Render recharge requests for admin view
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
-            }
-            updateDashboard();
-        }
-
-<<<<<<< HEAD
-        // ============= FUNCIONES DE UI (CLIENT) =============
-        function renderClientDashboard() {
-            const userCurrentBalanceElement = document.getElementById('userCurrentBalance');
-            const clientBalanceElement = document.getElementById('clientBalance');
-            const clientDisplayNameElement = document.getElementById('clientDisplayName');
-            
-            if (!currentUser || currentUser.role !== 'client') {
-                console.error('No hay un usuario cliente logeado.');
-                return;
-            }
-
-            const clientData = users.find(u => u.id === currentUser.uid);
-            if (!clientData) {
-                console.error('Datos del cliente no encontrados en users.');
-                return;
-            }
-
-            if (userCurrentBalanceElement) userCurrentBalanceElement.textContent = `$${(clientData.balance || 0).toFixed(2)}`;
-            if (clientBalanceElement) clientBalanceElement.textContent = `$${(clientData.balance || 0).toFixed(2)}`;
-            if (clientDisplayNameElement) clientDisplayNameElement.textContent = clientData.name;
-
-            renderClientTransactionHistory(clientData.id);
-            renderAvailableAccountsCatalog();
-            renderClientPurchaseHistory(clientData.id);
-        }
-
-        async function renderClientTransactionHistory(clientId) {
-    const transactionHistoryElement = document.getElementById('transactionHistory');
-    if (!transactionHistoryElement) return;
-
-    transactionHistoryElement.innerHTML = '<div class="loading">Cargando historial...</div>';
-
-    try {
-        const user = firebase.auth().currentUser;
-
-        if (!user) {
-            console.error("Usuario no autenticado.");
-            transactionHistoryElement.innerHTML = '<div class="no-data">No autenticado.</div>';
-            return;
-        }
-
-        let transactionsRef;
-
-        // Si es admin, puede ver cualquier cliente
-        if (user.uid === "6MoZbkXBd8QCDh3QzQwDkiviw6u2") {
-            transactionsRef = db.collection('users').doc(clientId).collection('transactions');
-        } else {
-            // Usuario normal: solo puede ver sus propias transacciones
-            transactionsRef = db.collection('users').doc(user.uid).collection('transactions');
-        }
-
-        const transactionsSnapshot = await transactionsRef.orderBy('createdAt', 'desc').get();
-        const transactions = transactionsSnapshot.docs.map(doc => doc.data());
-
-        if (transactions.length === 0) {
-            transactionHistoryElement.innerHTML = '<div class="no-data">No hay transacciones registradas.</div>';
-        } else {
-            let historyHtml = '';
-            transactions.forEach(entry => {
-                const amountClass = entry.amount >= 0 ? 'positive' : 'negative';
-                const date = entry.createdAt?.toDate ? entry.createdAt.toDate() : new Date(entry.createdAt);
-                historyHtml += `
-                    <div class="balance-history-item">
-                        <div>
-                            <span class="amount ${amountClass}">${entry.amount >= 0 ? '+' : ''}$${entry.amount.toFixed(2)}</span>
-                            <br>
-                            <span class="date">${normalizeDate(date).toLocaleString()}</span>
-                        </div>
-                        <div class="comment">${escapeHTML(entry.comment || entry.type || 'Sin comentario')}</div>
-                    </div>
-                `;
-            });
-            transactionHistoryElement.innerHTML = historyHtml;
-        }
-    } catch (error) {
-        console.error('Error fetching client transactions:', error);
-        transactionHistoryElement.innerHTML = '<div class="no-data">Error al cargar el historial de transacciones.</div>';
+function renderAll() {
+    renderAccounts();
+    renderClients(); // For manual clients (if any)
+    renderSales();
+    renderServices(); // Add this line
+    if (financialManager) {
+        financialManager.renderExpensesTable();
+        financialManager.renderFinancialAccountsTable();
     }
+    if (webClientManager) {
+        webClientManager.renderAllUsersTable(); // Render all users for admin view
+    }
+    if (rechargeManager) {
+        rechargeManager.renderRechargeRequests(); // Render recharge requests for admin view
+    }
+    updateDashboard();
 }
-
-
-function renderAvailableAccountsCatalog() {
-    const catalogElement = document.getElementById('availableAccountsCatalog');
-    if (!catalogElement) return;
-
-    catalogElement.innerHTML = '';
-
-    const availableAccounts = accounts.filter(acc => acc.status === 'Disponible' && acc.profiles.some(p => p.available));
-
-    if (availableAccounts.length === 0) {
-        catalogElement.innerHTML = '<div class="no-data">No hay cuentas disponibles en este momento.</div>';
-        return;
-    }
-
-    availableAccounts.forEach(account => {
-        const associatedService = services.find(s => s.platform === account.platform);
-        const serviceDescription = associatedService ? associatedService.description : 'Descripción no disponible.';
-        const serviceImage = associatedService ? associatedService.imageUrl : '';
-        const serviceRating = associatedService ? associatedService.rating || 0 : 0;
-        const price = (account.pricePerProfile || 0).toFixed(2);
-
-        const card = document.createElement('div');
-        card.className = 'account-card';
-        card.innerHTML = `
-            <h3>
-                <img src="${escapeHTML(serviceImage)}" 
-                     alt="${escapeHTML(account.platform)}" 
-                     style="width: 30px; height: 30px; object-fit: contain; margin-right: 10px;">
-                ${escapeHTML(account.platform)}
-            </h3>
-            <p class="price">Precio por perfil: $${price}</p>
-            
-            <div class="d-flex gap-2" style="margin-top:10px; justify-content:center;">
-                <button class="btn btn-secondary btn-sm" 
-                        onclick="openDetailsModal('${escapeHTML(account.platform)}','${escapeHTML(serviceImage)}','${escapeHTML(serviceDescription)}','${price}','${serviceRating}')">
-                    <i class="fas fa-info-circle"></i> Detalles
-                </button>
-                <button class="btn btn-success btn-sm" onclick="openPurchaseModal('${account.id}')">
-                    <i class="fas fa-shopping-cart"></i> Comprar
-                </button>
-            </div>
-        `;
-        catalogElement.appendChild(card);
-    });
-}
-
-// Función para generar las estrellas dinámicamente
-function generateStars(rating) {
-    const fullStars = Math.floor(rating);
-    const halfStar = rating % 1 >= 0.5;
-    let starsHtml = '';
-
-    for (let i = 0; i < fullStars; i++) {
-        starsHtml += `<i class="fas fa-star" style="color: gold;"></i>`;
-    }
-    if (halfStar) {
-        starsHtml += `<i class="fas fa-star-half-alt" style="color: gold;"></i>`;
-    }
-    const emptyStars = 5 - fullStars - (halfStar ? 1 : 0);
-    for (let i = 0; i < emptyStars; i++) {
-        starsHtml += `<i class="far fa-star" style="color: gold;"></i>`;
-    }
-
-    return `<div class="rating" style="text-align:center; margin:10px 0;">${starsHtml} <span style="margin-left:6px; font-size:0.9rem; color:#555;">${rating.toFixed(1)}/5</span></div>`;
-}
-
-// Modal de detalles con rating dinámico
-function openDetailsModal(platform, imageUrl, description, price, rating) {
-    const stars = generateStars(parseFloat(rating));
-
-    const modalContent = `
-        <div class="modal-header">
-            <h3><i class="fas fa-info-circle"></i> ${escapeHTML(platform)}</h3>
-            <button class="modal-close" onclick="modal.close()">&times;</button>
-        </div>
-        <div class="modal-body" style="text-align:center;">
-            <img src="${escapeHTML(imageUrl)}" alt="${escapeHTML(platform)}" 
-                 style="width:80px; height:80px; object-fit:contain; margin-bottom:10px;">
-            ${stars}
-            <p style="margin-top:10px; font-size:1rem; color:#444;">${escapeHTML(description)}</p>
-            <p style="margin-top:15px; font-weight:bold; font-size:1.1rem; color:#2c5282;">Precio: $${price}</p>
-        </div>
-        <div class="modal-footer" style="display:flex; justify-content:center; gap:10px;">
-            <button class="btn btn-success">
-                <i class="fas fa-shopping-cart"></i> Comprar
-            </button>
-            <button class="btn btn-primary" onclick="modal.close()">
-                <i class="fas fa-check"></i> Cerrar
-            </button>
-        </div>
-    `;
-    modal.open(modalContent, { size: 'small', ariaLabel: `Detalles de ${platform}` });
-}
-
-        async function renderClientPurchaseHistory(clientId) {
-            const historyElement = document.getElementById('clientPurchaseHistory');
-            if (!historyElement) return;
-
-            historyElement.innerHTML = '<div class="loading">Cargando historial de compras...</div>';
-
-            try {
-                const clientSales = sales.filter(sale => sale.clientId === clientId && sale.isAutoPurchase);
-
-                if (clientSales.length === 0) {
-                    historyElement.innerHTML = '<div class="no-data">No tienes compras registradas aún.</div>';
-                    return;
-                }
-
-                let historyHtml = '';
-                for (const sale of clientSales) {
-                    const account = accounts.find(acc => acc.id === sale.accountId);
-                    if (!account) continue;
-
-                    const profile = account.profiles.find(p => p.saleId === sale.id);
-
-                    const today = new Date();
-                    const endDate = new Date(sale.endDate);
-                    let statusText = sale.status;
-                    let statusClass = sale.status === 'Activa' ? 'active' : 'unavailable';
-
-                    if (sale.status === 'Activa' && today > endDate) {
-                        statusText = 'Vencida';
-                        statusClass = 'unavailable';
-                    }
-
-                    historyHtml += `
-                        <div class="purchase-history-item">
-                            <p><strong>Plataforma:</strong> ${escapeHTML(account.platform)}</p>
-                            <p><strong>Perfiles:</strong> ${sale.profilesCount}</p>
-                            <p><strong>Total:</strong> $${(sale.total || 0).toFixed(2)}</p>
-                            <p><strong>Periodo:</strong> ${new Date(sale.startDate).toLocaleDateString()} - ${new Date(sale.endDate).toLocaleDateString()}</p>
-                            <p><strong>Estado:</strong> <span class="status-badge ${statusClass}">${statusText}</span></p>
-                            <div class="access-details">
-                                <p><strong>Usuario:</strong> ${escapeHTML(account.email)}</p>
-                                <p><strong>Contraseña:</strong> ${escapeHTML(account.password)}</p>
-                                ${profile ? `<p><strong>Perfil Asignado:</strong> ${escapeHTML(profile.name)} (PIN: ${escapeHTML(profile.pin)})</p>` : ''}
-                            </div>
-                        </div>
-                    `;
-                }
-                historyElement.innerHTML = historyHtml;
-            } catch (error) {
-                console.error('Error rendering client purchase history:', error);
-                historyElement.innerHTML = '<div class="no-data">Error al cargar el historial de compras.</div>';
-            }
-        }
-
-        async function openPurchaseModal(accountId) {
-    const account = accounts.find(acc => acc.id === accountId);
-    if (!account) {
-        modal.alert('Cuenta no encontrada.', 'Error', 'error');
-        return;
-    }
-
-    const availableProfiles = account.profiles.filter(p => p.available);
-    if (availableProfiles.length === 0) {
-        modal.alert('No hay perfiles disponibles en esta cuenta.', 'Sin Perfiles', 'warning');
-        return;
-    }
-
-    const formConfig = {
-        fields: [
-            { type: 'html', value: `<p>Estás a punto de comprar un perfil de <strong>${escapeHTML(account.platform)}</strong>.</p>` },
-            { type: 'html', value: `<p><strong>Precio por perfil:</strong> $${(account.pricePerProfile || 0).toFixed(2)}</p>` },
-            { type: 'html', value: `<p><strong>Perfiles disponibles:</strong> ${availableProfiles.length}</p>` },
-            { type: 'number', name: 'profilesToBuy', label: 'Cantidad de perfiles a comprar', required: true, value: '1', min: '1', max: availableProfiles.length.toString() }
-        ]
-    };
-
-    // Abrir el modal del formulario
-    modal.form(formConfig, `Comprar Perfil de ${account.platform}`, {autoClose: false}).then(async data => {
-        if (!data) return;
-
-        const profilesToBuy = parseInt(data.profilesToBuy);
-        if (isNaN(profilesToBuy) || profilesToBuy <= 0 || profilesToBuy > availableProfiles.length) {
-            modal.alert('Cantidad de perfiles inválida.', 'Error', 'error');
-            return;
-        }
-
-        const totalCost = profilesToBuy * (account.pricePerProfile || 0);
-        const clientData = users.find(u => u.id === currentUser.uid);
-
-        if (!clientData || (clientData.balance || 0) < totalCost) {
-            modal.alert(`Saldo insuficiente. Necesitas $${totalCost.toFixed(2)} y tienes $${(clientData?.balance || 0).toFixed(2)}.`, 'Saldo Insuficiente', 'error');
-            return;
-        }
-
-        const confirmed = await modal.confirm(`Confirmar compra de ${profilesToBuy} perfil(es) de ${account.platform} por $${totalCost.toFixed(2)}?`, 'Confirmar Compra');
-        if (!confirmed) return;
-
-        // Llamar a la función de compra completa
-        await processPurchase(accountId, profilesToBuy, totalCost);
-    });
-}
-
-
-        async function processPurchase(accountId, profilesToBuy, totalCost) {
-    if (isClaudeEnvironment) {
-        // Demo mode simulation
-        const account = accounts.find(acc => acc.id === accountId);
-        const clientData = webClients.find(u => u.id === currentUser.uid);
-        
-        if (!account || !clientData) {
-            modal.toast('Error: Cuenta o cliente no encontrados.', 'error');
-            return;
-        }
-
-        if ((clientData.balance || 0) < totalCost) {
-            modal.toast('Saldo insuficiente. Por favor, recarga tu saldo.', 'error');
-            return;
-        }
-
-        const availableProfiles = account.profiles.filter(p => p.available);
-        if (availableProfiles.length < profilesToBuy) {
-            modal.toast('No hay suficientes perfiles disponibles en este momento.', 'warning');
-            return;
-        }
-
-        // Simulate purchase in demo mode
-        const profilesToAssign = availableProfiles.slice(0, profilesToBuy);
-        
-        // Update demo data
-        clientData.balance = (clientData.balance || 0) - totalCost;
-        
-        const newSale = {
-            id: Date.now().toString(),
-            clientId: currentUser.uid,
-            accountId: accountId,
-            profilesCount: profilesToBuy,
-            startDate: new Date().toISOString().split('T')[0],
-            endDate: new Date(new Date().setMonth(new Date().getMonth() + 1)).toISOString().split('T')[0],
-            total: totalCost,
-            status: 'Activa',
-            paid: true,
-            isAutoPurchase: true,
-            createdAt: new Date().toISOString()
-        };
-        sales.push(newSale);
-
-        // Update profiles in demo
-        account.profiles.forEach(p => {
-            const assigned = profilesToAssign.find(ap => ap.name === p.name && ap.pin === p.pin);
-            if (assigned) {
-                p.available = false;
-                p.soldTo = currentUser.uid;
-                p.saleId = newSale.id;
-            }
-        });
-
-        account.status = account.profiles.some(p => p.available) ? 'Disponible' : 'Ocupado';
-        account.totalEarned = (account.totalEarned || 0) + totalCost;
-
-        // Show purchase success modal with account details
-        showPurchaseSuccessModal(account, profilesToAssign, newSale);
-        renderAvailableAccountsCatalog();
-        renderClientDashboard();
-        return;
-    }
-
-    try {
-        const accountRef = db.collection('accounts').doc(accountId);
-        const clientRef = db.collection('users').doc(currentUser.uid);
-
-        const accountDoc = await accountRef.get();
-        const clientDoc = await clientRef.get();
-
-        if (!accountDoc.exists || !clientDoc.exists) {
-            modal.toast('Error: Cuenta o cliente no encontrados.', 'error');
-            return;
-        }
-
-        const accountData = accountDoc.data();
-        const clientData = clientDoc.data();
-
-        if ((clientData.balance || 0) < totalCost) {
-            modal.toast('Saldo insuficiente. Por favor, recarga tu saldo.', 'error');
-            return;
-        }
-
-        const availableProfiles = accountData.profiles.filter(p => p.available);
-        if (availableProfiles.length < profilesToBuy) {
-            modal.toast('No hay suficientes perfiles disponibles en este momento.', 'warning');
-            return;
-        }
-
-        // Deduct balance
-        const newClientBalance = (clientData.balance || 0) - totalCost;
-        await clientRef.update({ balance: newClientBalance });
-
-        // Record transaction
-        await clientRef.collection('transactions').add({
-            type: 'Compra de Perfil',
-            amount: -totalCost,
-            comment: `Compra de ${profilesToBuy} perfil(es) de ${accountData.platform}`,
-            createdAt: firebase.firestore.FieldValue.serverTimestamp()
-        });
-
-        // Assign profiles and create sale record
-        const profilesToAssign = availableProfiles.slice(0, profilesToBuy);
-        const updatedProfiles = accountData.profiles.map(p => {
-            const assigned = profilesToAssign.find(ap => ap.name === p.name && ap.pin === p.pin);
-            if (assigned) {
-                return {
-                    ...p,
-                    available: false,
-                    soldTo: currentUser.uid,
-                    saleId: '' // Will be updated with actual sale ID
-                };
-            }
-            return p;
-        });
-
-        const newSale = {
-            clientId: currentUser.uid,
-            accountId: accountId,
-            profilesCount: profilesToBuy,
-            startDate: new Date().toISOString().split('T')[0],
-            endDate: new Date(new Date().setMonth(new Date().getMonth() + 1)).toISOString().split('T')[0], // 1 month duration
-            total: totalCost,
-            status: 'Activa',
-            paid: true,
-            isAutoPurchase: true,
-            createdAt: firebase.firestore.FieldValue.serverTimestamp()
-        };
-
-        const saleRef = await db.collection('sales').add(newSale);
-        const saleId = saleRef.id;
-
-        // Update saleId in assigned profiles
-        const finalUpdatedProfiles = updatedProfiles.map(p => {
-            if (p.soldTo === currentUser.uid && p.saleId === '') { // Only update newly assigned profiles
-                return { ...p, saleId: saleId };
-            }
-            return p;
-        });
-
-        // Update account status if all profiles are now occupied
-        const newAccountStatus = finalUpdatedProfiles.some(p => p.available) ? 'Disponible' : 'Ocupado';
-        await accountRef.update({
-            profiles: finalUpdatedProfiles,
-            status: newAccountStatus,
-            totalEarned: (accountData.totalEarned || 0) + totalCost // Update total earned for the account
-        });
-
-        // Show purchase success modal with account details
-        const updatedAccountData = { ...accountData, profiles: finalUpdatedProfiles };
-        const saleData = { ...newSale, id: saleId };
-        sales.push(saleData); // <-- ESTA LÍNEA ES LA QUE FALTA
-        showPurchaseSuccessModal(updatedAccountData, profilesToAssign, saleData);
-
-        await loadServices();
-        await loadAccounts();
-        renderAvailableAccountsCatalog();
-        renderClientDashboard();
-    } catch (error) {
-        console.error('Error processing purchase:', error);
-        modal.toast(`Error al procesar la compra: ${error.message}`, 'error');
-    }
-}
-
-function showPurchaseSuccessModal(account, assignedProfiles, sale) {
-    const profilesText = assignedProfiles.map(p => `${p.name} (PIN: ${p.pin})`).join(', ');
-    const endDate = new Date(sale.endDate);
-    const daysRemaining = Math.ceil((endDate - new Date()) / (1000 * 60 * 60 * 24));
-    
-    const modalContent = `
-        <div class="modal-header" style="background: var(--gradient-success); color: white; border-radius: var(--border-radius-xl) var(--border-radius-xl) 0 0;">
-            <h3><i class="fas fa-check-circle" aria-hidden="true"></i> ¡Compra Realizada con Éxito!</h3>
-            <button class="modal-close" onclick="modal.close()" aria-label="Cerrar modal" style="color: white;">&times;</button>
-        </div>
-        <div class="modal-body" style="padding: var(--spacing-2xl);">
-            <div class="purchase-success-content">
-                <div class="success-message">
-                    <div class="success-icon">
-                        <i class="fas fa-gift" aria-hidden="true" style="font-size: 3rem; color: var(--success-color); margin-bottom: 1rem;"></i>
-                    </div>
-                    <p style="font-size: 1.2rem; color: var(--dark-color); margin-bottom: 2rem; text-align: center;">
-                        Ya tienes acceso a <strong>${escapeHTML(account.platform)}</strong>
-                    </p>
-                </div>
-                
-                <div class="account-access-card" style="background: #f8fafc; border-radius: var(--border-radius-lg); padding: var(--spacing-xl); border: 2px solid var(--success-color); margin-bottom: 2rem;">
-                    <h4 style="color: var(--success-color); margin-bottom: 1rem; display: flex; align-items: center; gap: 8px;">
-                        <i class="fas fa-key" aria-hidden="true"></i> Datos de Acceso
-                    </h4>
-                    <div class="access-details-grid" style="display: grid; gap: 1rem;">
-                        <div class="access-item">
-                            <label style="font-weight: 600; color: var(--dark-color); display: block; margin-bottom: 4px;">
-                                <i class="fas fa-tv" aria-hidden="true"></i> Plataforma:
-                            </label>
-                            <div class="access-value" style="background: white; padding: 12px; border-radius: var(--border-radius); border: 1px solid #e2e8f0; font-family: monospace; font-size: 1.1rem;">
-                                ${escapeHTML(account.platform)}
-                            </div>
-                        </div>
-                        
-                        <div class="access-item">
-                            <label style="font-weight: 600; color: var(--dark-color); display: block; margin-bottom: 4px;">
-                                <i class="fas fa-user" aria-hidden="true"></i> Usuario/Email:
-                            </label>
-                            <div class="access-value" style="background: white; padding: 12px; border-radius: var(--border-radius); border: 1px solid #e2e8f0; font-family: monospace; font-size: 1.1rem;">
-                                ${escapeHTML(account.email)}
-                            </div>
-                        </div>
-                        
-                        <div class="access-item">
-                            <label style="font-weight: 600; color: var(--dark-color); display: block; margin-bottom: 4px;">
-                                <i class="fas fa-lock" aria-hidden="true"></i> Contraseña:
-                            </label>
-                            <div class="access-value" style="background: white; padding: 12px; border-radius: var(--border-radius); border: 1px solid #e2e8f0; font-family: monospace; font-size: 1.1rem;">
-                                ${escapeHTML(account.password)}
-                            </div>
-                        </div>
-                        
-                        <div class="access-item">
-                            <label style="font-weight: 600; color: var(--dark-color); display: block; margin-bottom: 4px;">
-                                <i class="fas fa-user-friends" aria-hidden="true"></i> Perfil${assignedProfiles.length > 1 ? 'es' : ''} Asignado${assignedProfiles.length > 1 ? 's' : ''}:
-                            </label>
-                            <div class="access-value" style="background: white; padding: 12px; border-radius: var(--border-radius); border: 1px solid #e2e8f0; font-family: monospace; font-size: 1.1rem;">
-                                ${escapeHTML(profilesText)}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="purchase-info" style="background: #eff6ff; border-radius: var(--border-radius-lg); padding: var(--spacing-lg); margin-bottom: 2rem; border: 1px solid #bfdbfe;">
-                    <h4 style="color: var(--info-color); margin-bottom: 1rem; display: flex; align-items: center; gap: 8px;">
-                        <i class="fas fa-info-circle" aria-hidden="true"></i> Información de tu Compra
-                    </h4>
-                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
-                        <div>
-                            <strong>Total Pagado:</strong> $${(sale.total || 0).toFixed(2)}
-                        </div>
-                        <div>
-                            <strong>Perfiles:</strong> ${sale.profilesCount}
-                        </div>
-                        <div>
-                            <strong>Fecha de Inicio:</strong> ${new Date(sale.startDate).toLocaleDateString()}
-                        </div>
-                        <div>
-                            <strong>Vence el:</strong> ${endDate.toLocaleDateString()} (${daysRemaining} días)
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="important-notice" style="background: #fef3c7; border: 1px solid #f59e0b; border-radius: var(--border-radius); padding: var(--spacing-lg); margin-bottom: 2rem;">
-                    <div style="display: flex; align-items: flex-start; gap: 12px;">
-                        <i class="fas fa-exclamation-triangle" aria-hidden="true" style="color: var(--warning-color); font-size: 1.5rem; margin-top: 2px;"></i>
-                        <div>
-                            <h5 style="color: var(--warning-color); margin: 0 0 8px 0;">Importante - Guarda esta información</h5>
-                            <p style="margin: 0; color: #92400e;">
-                                Copia y guarda estos datos en un lugar seguro. Los necesitarás para acceder a tu cuenta de ${escapeHTML(account.platform)}.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal-footer" style="gap: 1rem;">
-            <button class="btn btn-success" onclick="copyAccountDataToClipboard('${account.id}', '${sale.id}')" tabindex="0">
-                <i class="fas fa-copy" aria-hidden="true"></i> Copiar Datos
-            </button>
-            <a href="https://wa.me/${ADMIN_WHATSAPP_NUMBER}?text=${encodeURIComponent('Hola, acabo de comprar una cuenta de ' + account.platform + ' y necesito ayuda.')}" target="_blank" class="whatsapp-button">
-                <i class="fab fa-whatsapp" aria-hidden="true"></i> Contactar Soporte
-            </a>
-            <button class="btn btn-primary" onclick="modal.close()" tabindex="0">
-                <i class="fas fa-check" aria-hidden="true"></i> Entendido
-            </button>
-        </div>
-    `;
-    
-    modal.open(modalContent, { size: 'large', ariaLabel: 'Confirmación de compra exitosa' });
-}
-
-function copyAccountDataToClipboard(accountId, saleId) {
-    console.log('Intentando copiar datos:', { accountId, saleId }); // Debug
-    console.log('Cuentas disponibles:', accounts.map(a => a.id)); // Debug
-    console.log('Ventas disponibles:', sales.map(s => s.id)); // Debug
-    
-    const account = accounts.find(acc => acc.id === accountId);
-    const sale = sales.find(s => s.id === saleId);
-    
-    if (!account) {
-        console.error('Cuenta no encontrada con ID:', accountId);
-        modal.toast('Error: Cuenta no encontrada.', 'error');
-        return;
-    }
-    
-    if (!sale) {
-        console.error('Venta no encontrada con ID:', saleId);
-        modal.toast('Error: Venta no encontrada.', 'error');
-        return;
-    }
-    
-    const assignedProfiles = account.profiles.filter(p => p.saleId === saleId);
-    console.log('Perfiles asignados:', assignedProfiles); // Debug
-    
-    // Si no encuentra perfiles por saleId, usar los que están vendidos al cliente actual
-    let profilesToUse = assignedProfiles;
-    if (profilesToUse.length === 0) {
-        profilesToUse = account.profiles.filter(p => p.soldTo === currentUser.uid);
-        console.log('Usando perfiles por cliente:', profilesToUse); // Debug
-    }
-    
-    const profilesText = profilesToUse.length > 0 
-        ? profilesToUse.map(p => `${p.name} (PIN: ${p.pin})`).join(', ')
-        : 'Perfil asignado';
-    
-    const message = `🎉 ¡Tu cuenta de ${account.platform} está lista!
-
-📱 PLATAFORMA: ${account.platform}
-📧 Usuario: ${account.email}
-🔐 Contraseña: ${account.password}
-👤 Perfil(es): ${profilesText}
-📅 Vigencia: ${new Date(sale.startDate).toLocaleDateString()} - ${new Date(sale.endDate).toLocaleDateString()}
-
-¡Disfruta tu servicio! 🍿✨`;
-
-    navigator.clipboard.writeText(message).then(() => {
-        modal.toast('📋 Datos copiados al portapapeles correctamente', 'success');
-    }).catch(err => {
-        console.error('Error al copiar al portapapeles:', err);
-        const textArea = document.createElement('textarea');
-        textArea.value = message;
-        document.body.appendChild(textArea);
-        textArea.select();
-        try {
-            document.execCommand('copy');
-            modal.toast('📋 Datos copiados al portapapeles correctamente', 'success');
-        } catch (ex) {
-            modal.alert('No se pudo copiar automáticamente. Aquí están tus datos:\n\n' + message, 'Datos de tu Cuenta', 'info');
-        } finally {
-            document.body.removeChild(textArea);
-        }
-    });
-}
-
-        async function openRechargeModal() {
-            const formConfig = {
-                fields: [
-                    { type: 'number', name: 'amount', label: 'Monto a Recargar ($)', required: true, placeholder: '0.00', step: '0.01', min: MIN_RECHARGE_AMOUNT.toString() },
-                    { type: 'select', name: 'bank', label: 'Banco de Origen', required: true, options: [
-                        { value: '', text: 'Seleccionar banco...' },
-                        { value: 'Pichincha', text: 'Banco Pichincha' },
-                        { value: 'Guayaquil', text: 'Banco de Guayaquil' },
-                        { value: 'Produbanco', text: 'Produbanco' },
-                        { value: 'Pacifico', text: 'Banco del Pacífico' },
-                        { value: 'Otro', text: 'Otro' }
-                    ]},
-                    { type: 'file', name: 'proof', label: 'Comprobante de Pago (Imagen)', required: true, accept: 'image/*' },
-                    { type: 'textarea', name: 'comment', label: 'Comentario (opcional)', placeholder: 'Número de referencia, nombre del titular, etc.' }
-                ]
-            };
-
-            const bankInfoHtml = `
-                <div class="bank-info-section">
-                    <h4>Datos Bancarios para Transferencia</h4>
-                    <p><strong>Banco:</strong> Banco Pichincha</p>
-                    <p><strong>Tipo de Cuenta:</strong> Ahorros</p>
-                    <p><strong>Número de Cuenta:</strong> <strong>XXXXXXXXXX</strong></p>
-                    <p><strong>Titular:</strong> Tu Nombre / Nombre de Empresa</p>
-                    <p><strong>Cédula/RUC:</strong> XXXXXXXXXX</p>
-                    <p class="warning-text">¡Importante! Realiza la transferencia a estos datos y adjunta el comprobante.</p>
-                    <p class="recharge-min-amount">Monto mínimo de recarga: $${MIN_RECHARGE_AMOUNT.toFixed(2)}</p>
-                </div>
-            `;
-
-            modal.form(formConfig, 'Solicitar Recarga de Saldo').then(async data => {
-                if (data) {
-                    const amount = parseFloat(data.amount);
-                    const bank = sanitizeInput(data.bank);
-                    const proofFile = data.proof;
-                    const comment = sanitizeInput(data.comment || '');
-
-                    if (isNaN(amount) || amount < MIN_RECHARGE_AMOUNT) {
-                        modal.alert(`El monto mínimo de recarga es $${MIN_RECHARGE_AMOUNT.toFixed(2)}.`, 'Monto Inválido', 'error');
-                        return;
-                    }
-                    if (!proofFile) {
-                        modal.alert('Debes adjuntar un comprobante de pago.', 'Comprobante Requerido', 'error');
-                        return;
-                    }
-
-                    await submitRechargeRequest(amount, bank, proofFile, comment);
-                }
-            });
-
-            const modalBody = document.querySelector('#modal-form').closest('.modal-body');
-            if (modalBody) {
-                modalBody.insertAdjacentHTML('afterbegin', bankInfoHtml);
-            }
-        }
-
-        async function submitRechargeRequest(amount, bank, proofFile, comment) {
-            try {
-                // ImgBB API Key is not provided in the context, so this part will fail without it.
-                // For a real application, you would need to replace this with a valid ImgBB API Key
-                // or use Firebase Storage for image uploads.
-                // For now, this will be a placeholder.
-                const IMGBB_API_KEY = "8ce353ca72771ab928e15bd597685042"; // Replace with your actual ImgBB API Key
-
-                if (IMGBB_API_KEY === "YOUR_IMGBB_API_KEY") {
-                    modal.alert('La clave API de ImgBB no está configurada. La carga de comprobantes no funcionará.', 'Error de Configuración', 'error');
-                    return;
-                }
-
-                const formData = new FormData();
-                formData.append('image', proofFile);
-
-                const uploadResponse = await fetch(`https://api.imgbb.com/1/upload?key=${IMGBB_API_KEY}`, {
-                    method: 'POST',
-                    body: formData
-                });
-                const uploadData = await uploadResponse.json();
-
-                if (!uploadData.success) {
-                    throw new Error(uploadData.error.message || 'Error al subir la imagen del comprobante.');
-                }
-
-                const imageUrl = uploadData.data.url;
-
-                const newRechargeRequest = {
-                    clientId: currentUser.uid,
-                    amount: amount,
-                    bank: bank,
-                    imageUrl: imageUrl,
-                    status: 'pending',
-                    comment: comment,
-                    createdAt: firebase.firestore.FieldValue.serverTimestamp()
-                };
-
-                await db.collection('rechargeRequests').add(newRechargeRequest);
-
-                modal.toast('Solicitud de recarga enviada con éxito. Esperando aprobación del administrador.', 'success');
-                modal.close();
-                renderClientDashboard();
-            } catch (error) {
-                console.error('Error submitting recharge request:', error);
-                modal.toast(`Error al enviar la solicitud de recarga: ${error.message}`, 'error');
-            }
-        }
-
-        // ============= FUNCIONES DE MODALES (ADMIN) =============
-=======
         // Funciones de modales para Cuentas
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
         function openAddAccountModal(accountId = null) {
             let account = null;
             if (accountId) {
@@ -8715,18 +6378,11 @@ function copyAccountDataToClipboard(accountId, saleId) {
             const modalContent = `
                 <div class="modal-header">
                     <h3 id="modal-title">${accountId ? 'Editar Cuenta Existente' : 'Agregar Nueva Cuenta'}</h3>
-<<<<<<< HEAD
-                    <button class="modal-close" type="button" onclick="modal.close()" aria-label="Cerrar modal">&times;</button>
-                </div>
-                <div class="modal-body">
-                    <form id="account-form" aria-label="${accountId ? 'Formulario para editar cuenta' : 'Formulario para agregar nueva cuenta'}">
-=======
                     <button class="modal-close" onclick="modal.close()" aria-label="Cerrar modal">&times;</button>
                 </div>
                 <div class="modal-body">
                     <form id="account-form" aria-label="${accountId ? 'Formulario para editar cuenta' : 'Formulario para agregar nueva cuenta'}">
                         <!-- Información básica -->
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                         <div class="form-section">
                             <h4><i class="fas fa-info-circle" aria-hidden="true"></i> Información de la Cuenta</h4>
                             <div class="form-row">
@@ -8761,10 +6417,7 @@ function copyAccountDataToClipboard(accountId, saleId) {
                             </div>
                         </div>
 
-<<<<<<< HEAD
-=======
                         <!-- Sección Financiera -->
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                         <div class="form-section">
                             <h4><i class="fas fa-dollar-sign" aria-hidden="true"></i> Información Financiera</h4>
                             <div class="form-row">
@@ -8792,10 +6445,7 @@ function copyAccountDataToClipboard(accountId, saleId) {
                             </div>
                         </div>
 
-<<<<<<< HEAD
-=======
                         <!-- Precios de venta -->
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                         <div class="form-section">
                             <h4><i class="fas fa-tags" aria-hidden="true"></i> Precios de Venta</h4>
                             <div class="form-row">
@@ -8809,20 +6459,14 @@ function copyAccountDataToClipboard(accountId, saleId) {
                                 </div>
                             </div>
                             
-<<<<<<< HEAD
-=======
                             <!-- Indicador de rentabilidad en tiempo real -->
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                             <div class="profit-indicator" id="profitIndicator" style="display: none;" role="status" aria-live="polite">
                                 <strong>Análisis de Rentabilidad:</strong>
                                 <div id="profitAnalysis"></div>
                             </div>
                         </div>
 
-<<<<<<< HEAD
-=======
                         <!-- Perfiles -->
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                         <div class="form-section">
                             <h4><i class="fas fa-user-friends" aria-hidden="true"></i> Configuración de Perfiles</h4>
                             <div class="form-row">
@@ -8833,10 +6477,7 @@ function copyAccountDataToClipboard(accountId, saleId) {
                             </div>
                             
                             <div id="profiles-container" role="group" aria-label="Perfiles de la cuenta">
-<<<<<<< HEAD
-=======
                                 <!-- Los perfiles se cargarán aquí por updateProfilesSection() -->
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                             </div>
                             <button type="button" class="btn btn-secondary btn-sm mt-2" onclick="addProfile()" tabindex="0">
                                 <i class="fas fa-plus" aria-hidden="true"></i> Agregar Perfil
@@ -8845,13 +6486,8 @@ function copyAccountDataToClipboard(accountId, saleId) {
                     </form>
                 </div>
                 <div class="modal-footer">
-<<<<<<< HEAD
-                    <button class="btn btn-secondary" type="button" onclick="modal.close()" tabindex="0">Cancelar</button>
-                    <button class="btn btn-success" type="button" onclick="saveAccount('${accountId || ''}')" tabindex="0">
-=======
                     <button class="btn btn-secondary" onclick="modal.close()" tabindex="0">Cancelar</button>
                     <button class="btn btn-success" onclick="saveAccount('${accountId || ''}')" tabindex="0">
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                         <i class="fas fa-save" aria-hidden="true"></i> ${accountId ? 'Guardar Cambios' : 'Guardar Cuenta'}
                     </button>
                 </div>
@@ -9032,21 +6668,13 @@ function copyAccountDataToClipboard(accountId, saleId) {
             profileItems.forEach(item => {
                 const nameInput = item.querySelector('.profile-name');
                 const pinInput = item.querySelector('.profile-pin');
-<<<<<<< HEAD
-                if (nameInput) {
-=======
                 if (nameInput) { // pinInput might be null if not present
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                     const name = sanitizeInput(nameInput.value) || 'Sin nombre';
                     const pin = sanitizeInput(pinInput ? pinInput.value : '') || 'Sin pin';
                     profiles.push({
                         name: name,
                         pin: pin,
-<<<<<<< HEAD
-                        available: true
-=======
                         available: true // Default to available when creating/editing
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                     });
                 }
             });
@@ -9072,10 +6700,7 @@ function copyAccountDataToClipboard(accountId, saleId) {
                     renewalDate: renewalDate,
                 });
 
-<<<<<<< HEAD
-=======
                 // Update existing profiles, preserving sold status if profile name matches
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                 const existingProfilesMap = new Map(accountToSave.profiles.map(p => [p.name, p]));
                 accountToSave.profiles = profiles.map(newProfile => {
                     const existing = existingProfilesMap.get(newProfile.name);
@@ -9086,11 +6711,7 @@ function copyAccountDataToClipboard(accountId, saleId) {
                             pin: newProfile.pin 
                         }; 
                     }
-<<<<<<< HEAD
-                    return newProfile;
-=======
                     return newProfile; // New profile, default to available
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                 });
 
             } else {
@@ -9127,27 +6748,16 @@ function copyAccountDataToClipboard(accountId, saleId) {
             }
         }
 
-<<<<<<< HEAD
-        function editAccount(id) {
-            openAddAccountModal(id);
-        }
-
-=======
        function editAccount(id) {
             openAddAccountModal(id);
         }
 
 
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
         async function deleteAccount(id) {
             const confirmed = await modal.confirm('¿Estás seguro de que deseas eliminar esta cuenta? Esta acción es irreversible.', 'Eliminar Cuenta');
             if (confirmed) {
                 try {
                     await deleteFromFirebase('accounts', id);
-<<<<<<< HEAD
-                    accounts = accounts.filter(acc => acc.id !== id);
-=======
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                     renderAll();
                     modal.toast('Cuenta eliminada correctamente.', 'success');
                 } catch (error) {
@@ -9167,35 +6777,15 @@ function copyAccountDataToClipboard(accountId, saleId) {
             const detailsHtml = `
                 <div class="modal-header">
                     <h3><i class="fas fa-info-circle" aria-hidden="true"></i> Detalles de la Cuenta</h3>
-<<<<<<< HEAD
-                    <button class="modal-close" type="button" onclick="modal.close()" aria-label="Cerrar modal">&times;</button>
-=======
                     <button class="modal-close" onclick="modal.close()" aria-label="Cerrar modal">&times;</button>
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                 </div>
                 <div class="modal-body">
                     <p><strong>Plataforma:</strong> ${escapeHTML(account.platform)}</p>
                     <p><strong>Email:</strong> ${escapeHTML(account.email)}</p>
-<<<<<<< HEAD
-                    <p><strong>Contraseña:</strong> ${escapeHTML(account.password)}</p>
-=======
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                     <p><strong>Precio por Perfil:</strong> $${(account.pricePerProfile || 0).toFixed(2)}</p>
                     <p><strong>Precio Total:</strong> $${(account.fullAccountPrice || 0).toFixed(2)}</p>
                     <p><strong>Costo de Adquisición:</strong> $${(account.acquisitionCost || 0).toFixed(2)}</p>
                     <p><strong>Proveedor:</strong> ${escapeHTML(account.supplier || 'No especificado')}</p>
-<<<<<<< HEAD
-                    <p><strong>Costo de Renovación:</strong> $${(account.renewalCost || 0).toFixed(2)}</p>
-                    <p><strong>Próxima Renovación:</strong> ${account.renewalDate ? new Date(account.renewalDate).toLocaleDateString() : 'N/A'}</p>
-                    <p><strong>Estado:</strong> ${escapeHTML(account.status)}</p>
-                    <p><strong>Perfiles:</strong></p>
-                    <ul>
-                        ${account.profiles.map(profile => `<li>${escapeHTML(profile.name)} (PIN: ${escapeHTML(profile.pin)}) - ${profile.available ? 'Disponible' : 'Ocupado'}</li>`).join('')}
-                    </ul>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn" type="button" onclick="modal.close()" tabindex="0">Cerrar</button>
-=======
                     <p><strong>Estado:</strong> ${escapeHTML(account.status)}</p>
                     <p><strong>Perfiles:</strong></p>
                     <ul>
@@ -9204,466 +6794,15 @@ function copyAccountDataToClipboard(accountId, saleId) {
                 </div>
                 <div class="modal-footer">
                     <button class="btn" onclick="modal.close()" tabindex="0">Cerrar</button>
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
                 </div>
             `;
 
             modal.open(detailsHtml, { size: 'medium' });
         }
 
-<<<<<<< HEAD
-        function openAddClientModal(clientId = null) {
-            let client = null;
-            if (clientId) {
-                client = clients.find(c => c.id === clientId);
-                if (!client) {
-                    modal.alert('Cliente no encontrado para editar.', 'Error', 'error');
-                    return;
-                }
-            }
-
-            const formConfig = {
-                fields: [
-                    { type: 'text', name: 'name', label: 'Nombre Completo', required: true, value: client ? client.name : '' },
-                    { type: 'tel', name: 'whatsApp', label: 'WhatsApp', required: true, placeholder: '+593 99 123 4567', value: client ? client.whatsApp : '' },
-                    { type: 'email', name: 'email', label: 'Email (opcional)', value: client ? client.email : '' },
-                    { type: 'textarea', name: 'notes', label: 'Notas', placeholder: 'Información adicional del cliente...', value: client ? client.notes : '' }
-                ]
-            };
-
-            modal.form(formConfig, `${clientId ? 'Editar Cliente Manual' : 'Agregar Nuevo Cliente Manual'}`).then(async data => {
-                if (data) {
-                    const name = sanitizeInput(data.name);
-                    const whatsApp = formatEcuadorianPhone(data.whatsApp);
-                    const email = sanitizeInput(data.email || '');
-                    const notes = sanitizeInput(data.notes || '');
-
-                    if (!whatsApp) {
-                        modal.alert('Formato de teléfono ecuatoriano inválido. Ej: 09XXXXXXXX o +593XXXXXXXXX', 'Error de Teléfono', 'error');
-                        return;
-                    }
-                    if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-                        modal.alert('El formato del email es inválido.', 'Error de Email', 'error');
-                        return;
-                    }
-
-                    let clientToSave;
-                    if (clientId) {
-                        clientToSave = clients.find(c => c.id === clientId);
-                        Object.assign(clientToSave, {
-                            name: name,
-                            whatsApp: whatsApp,
-                            email: email,
-                            notes: notes
-                        });
-                    } else {
-                        clientToSave = {
-                            id: Date.now().toString(),
-                            name: name,
-                            whatsApp: whatsApp,
-                            email: email,
-                            notes: notes,
-                            purchases: 0,
-                            lastPurchase: null,
-                            createdAt: firebase.firestore.FieldValue.serverTimestamp()
-                        };
-                        clients.push(clientToSave);
-                    }
-
-                    try {
-                        await saveToFirebase('clients', clientToSave);
-                        renderAll();
-                        modal.toast(`Cliente manual ${clientId ? 'actualizado' : 'agregado'} correctamente.`, 'success');
-                    } catch (error) {
-                        console.error('Error saving client:', error);
-                        modal.toast(`Error al guardar el cliente manual: ${error.message}`, 'error');
-                    }
-                }
-            });
-        }
-
-        async function deleteClient(id) {
-            const confirmed = await modal.confirm('¿Estás seguro de que deseas eliminar este cliente manual? Esto no eliminará las ventas asociadas, pero el cliente aparecerá como "eliminado".', 'Confirmar Eliminación');
-            if (confirmed) {
-                try {
-                    clients = clients.filter(c => c.id !== id);
-
-                    await deleteFromFirebase('clients', id);
-                    renderAll();
-                    modal.toast('✅ Cliente manual eliminado correctamente.', 'success');
-                } catch (error) {
-                    console.error('Error deleting client:', error);
-                    modal.toast(`Error al eliminar el cliente manual: ${error.message}`, 'error');
-                }
-            }
-        }
-
-        function openSaleModal(saleId = null) {
-            let sale = null;
-            if (saleId) {
-                sale = sales.find(s => s.id === saleId);
-                if (!sale) {
-                    modal.alert('Venta no encontrada para editar.', 'Error', 'error');
-                    return;
-                }
-            }
-
-            if (accounts.length === 0) {
-                modal.alert('Primero debes agregar al menos una cuenta.', 'Sin Cuentas', 'warning');
-                return;
-            }
-
-            if (clients.length === 0 && users.length === 0) {
-                modal.alert('Primero debes agregar al menos un cliente (manual o web).', 'Sin Clientes', 'warning');
-                return;
-            }
-
-            const allClients = [
-                ...clients.map(c => ({ value: c.id, text: `${c.name} (Manual)` })),
-                ...users.map(u => ({ value: u.id, text: `${u.name} ${u.lastName || ''} (Web)` }))
-            ];
-
-            const clientOptions = allClients.map(c => ({ value: c.value, text: c.text }));
-            const accountOptions = accounts.map(a => ({ 
-                value: a.id, 
-                text: `${a.platform} - ${a.email}` 
-            }));
-
-            const today = new Date();
-            const endDateDefault = new Date();
-            endDateDefault.setDate(today.getDate() + 30);
-
-            const formConfig = {
-                fields: [
-                    { type: 'select', name: 'clientId', label: 'Cliente', required: true, options: [{ value: '', text: 'Seleccionar cliente...' }, ...clientOptions], value: sale ? sale.clientId : '' },
-                    { type: 'select', name: 'accountId', label: 'Cuenta', required: true, options: [{ value: '', text: 'Seleccionar cuenta...' }, ...accountOptions], value: sale ? sale.accountId : '' },
-                    { type: 'number', name: 'profilesCount', label: 'Número de Perfiles', required: true, placeholder: '1', value: sale ? sale.profilesCount : '1', min: '1' },
-                    { type: 'date', name: 'startDate', label: 'Fecha de Inicio', required: true, value: sale ? sale.startDate : today.toISOString().split('T')[0] },
-                    { type: 'date', name: 'endDate', label: 'Fecha de Fin', required: true, value: sale ? sale.endDate : endDateDefault.toISOString().split('T')[0] },
-                    { type: 'number', name: 'total', label: 'Total ($)', required: true, placeholder: '0.00', value: sale ? (sale.total || 0).toFixed(2) : '', step: '0.01', min: '0' },
-                    { type: 'select', name: 'status', label: 'Estado', required: true, options: [
-                        { value: 'Activa', text: 'Activa' },
-                        { value: 'Inactiva', text: 'Inactiva' },
-                        { value: 'Pendiente', text: 'Pendiente' }
-                    ], value: sale ? sale.status : 'Activa' },
-                    { type: 'select', name: 'paid', label: 'Pagado', required: true, options: [
-                        { value: 'true', text: 'Sí' },
-                        { value: 'false', text: 'No' }
-                    ], value: sale ? sale.paid.toString() : 'false' }
-                ]
-            };
-
-            modal.form(formConfig, `${saleId ? 'Editar Venta' : 'Nueva Venta'}`).then(async data => {
-                if (!data) return;
-
-                if (!data.clientId || !data.accountId || !data.profilesCount || !data.startDate || !data.endDate || !data.total || !data.status || !data.paid) {
-                    modal.alert('Por favor, completa todos los campos obligatorios.', 'Campos Incompletos', 'warning');
-                    return;
-                }
-                if (isNaN(parseFloat(data.total)) || parseFloat(data.total) < 0) {
-                    modal.alert('El total debe ser un número positivo.', 'Error de Monto', 'error');
-                    return;
-                }
-                if (parseInt(data.profilesCount) <= 0) {
-                    modal.alert('El número de perfiles debe ser al menos 1.', 'Error de Perfiles', 'error');
-                    return;
-                }
-
-                const newSaleData = {
-                    clientId: data.clientId,
-                    accountId: data.accountId,
-                    profilesCount: parseInt(data.profilesCount),
-                    startDate: data.startDate,
-                    endDate: data.endDate,
-                    total: parseFloat(data.total),
-                    status: sanitizeInput(data.status),
-                    paid: data.paid === 'true',
-                    isAutoPurchase: false
-                };
-
-                let saleToSave;
-                let oldAccount = null;
-                let oldClient = null;
-
-                if (saleId) {
-                    saleToSave = sales.find(s => s.id === saleId);
-                    if (!saleToSave) {
-                        modal.alert('Error: Venta no encontrada para actualizar.', 'Error', 'error');
-                        return;
-                    }
-
-                    oldAccount = accounts.find(acc => acc.id === saleToSave.accountId);
-                    if (oldAccount) {
-                        oldAccount.totalEarned = (oldAccount.totalEarned || 0) - saleToSave.total;
-                        oldAccount.profiles.forEach(p => {
-                            if (p.saleId === saleToSave.id) {
-                                p.available = true;
-                                delete p.soldTo;
-                                delete p.saleId;
-                            }
-                        });
-                        oldAccount.status = oldAccount.profiles.some(p => p.available) ? 'Disponible' : 'Ocupado';
-                    }
-
-                    oldClient = clients.find(c => c.id === saleToSave.clientId) || users.find(u => u.id === saleToSave.clientId);
-                    if (oldClient) {
-                        oldClient.purchases = Math.max(0, (oldClient.purchases || 0) - 1);
-                    }
-
-                    Object.assign(saleToSave, newSaleData);
-                } else {
-                    saleToSave = { id: Date.now().toString(), ...newSaleData, createdAt: firebase.firestore.FieldValue.serverTimestamp() };
-                    sales.push(saleToSave);
-                }
-
-                const account = accounts.find(acc => acc.id === saleToSave.accountId);
-                if (account) {
-                    account.totalEarned = (account.totalEarned || 0) + saleToSave.total;
-
-                    const availableProfiles = account.profiles.filter(p => p.available);
-                    let profilesAssigned = 0;
-                    for (let i = 0; i < availableProfiles.length && profilesAssigned < saleToSave.profilesCount; i++) {
-                        availableProfiles[i].available = false;
-                        availableProfiles[i].soldTo = saleToSave.clientId;
-                        availableProfiles[i].saleId = saleToSave.id;
-                        profilesAssigned++;
-                    }
-                    if (profilesAssigned < saleToSave.profilesCount) {
-                        modal.alert('No hay suficientes perfiles disponibles en esta cuenta. Se asignaron los disponibles.', 'Advertencia', 'warning');
-                    }
-                    account.status = account.profiles.some(p => p.available) ? 'Disponible' : 'Ocupado';
-
-                    const client = clients.find(c => c.id === saleToSave.clientId) || users.find(u => u.id === saleToSave.clientId);
-                    if (client) {
-                        client.purchases = (client.purchases || 0) + 1;
-                        client.lastPurchase = saleToSave.startDate;
-                    }
-
-                    try {
-                        const savePromises = [
-                            saveToFirebase('sales', saleToSave),
-                            saveToFirebase('accounts', account)
-                        ];
-                        if (client) savePromises.push(saveToFirebase(client.isWebClient ? 'users' : 'clients', client));
-                        if (oldAccount && oldAccount.id !== account.id) savePromises.push(saveToFirebase('accounts', oldAccount));
-                        if (oldClient && oldClient.id !== client.id) savePromises.push(saveToFirebase(oldClient.isWebClient ? 'users' : 'clients', oldClient));
-
-                        await Promise.all(savePromises);
-                        renderAll();
-                        financialManager.updateFinancialDashboard();
-                        modal.close();
-                        modal.toast(`Venta ${saleId ? 'actualizada' : 'completada'} correctamente.`, 'success');
-
-                        if (!saleId) generateWhatsAppFromSale(saleToSave.id);
-
-                    } catch (error) {
-                        console.error('Error al guardar la venta:', error);
-                        modal.toast(`Error al completar/actualizar la venta: ${error.message}`, 'error');
-                    }
-                } else {
-                    modal.alert('❌ Cuenta no encontrada. No se puede completar la venta.', 'Error', 'error');
-                }
-            });
-        }
-
-        async function deleteSale(id) {
-            const confirmed = await modal.confirm('¿Estás seguro de que deseas eliminar esta venta? Esto liberará los perfiles asociados y ajustará las ganancias de la cuenta.', 'Confirmar Eliminación');
-            if (confirmed) {
-                try {
-                    const saleToDelete = sales.find(s => s.id === id);
-                    if (!saleToDelete) return modal.alert('Venta no encontrada.', 'error');
-
-                    const account = accounts.find(acc => acc.id === saleToDelete.accountId);
-                    if (account) {
-                        account.totalEarned = (account.totalEarned || 0) - saleToDelete.total;
-                        account.profiles.forEach(p => {
-                            if (p.saleId === saleToDelete.id) {
-                                p.available = true;
-                                delete p.soldTo;
-                                delete p.saleId;
-                            }
-                        });
-                        account.status = account.profiles.some(p => p.available) ? 'Disponible' : 'Ocupado';
-                        await saveToFirebase('accounts', account);
-                    }
-
-                    const client = clients.find(c => c.id === saleToDelete.clientId) || users.find(u => u.id === saleToDelete.clientId);
-                    if (client) {
-                        client.purchases = Math.max(0, (client.purchases || 0) - 1);
-                        const remainingSalesForClient = sales.filter(s => s.clientId === client.id && s.id !== saleToDelete.id);
-                        client.lastPurchase = remainingSalesForClient.length
-                            ? remainingSalesForClient.sort((a, b) => new Date(b.startDate) - new Date(a.startDate))[0].startDate
-                            : null;
-                        await saveToFirebase(client.isWebClient ? 'users' : 'clients', client);
-                    }
-
-                    sales = sales.filter(s => s.id !== id);
-                    await deleteFromFirebase('sales', id);
-
-                    renderAll();
-                    financialManager.updateFinancialDashboard();
-                    modal.toast('✅ Venta eliminada correctamente.', 'success');
-                } catch (error) {
-                    console.error('Error deleting sale:', error);
-                    modal.toast(`Error al eliminar la venta: ${error.message}`, 'error');
-                }
-            }
-        }
-
-        function generateWhatsAppFromSale(saleId) {
-            const sale = sales.find(s => s.id === saleId);
-            if (!sale) {
-                modal.alert('Venta no encontrada para generar mensaje.', 'Error', 'error');
-                return;
-            }
-
-            const client = clients.find(c => c.id === sale.clientId) || users.find(u => u.id === sale.clientId);
-            const account = accounts.find(acc => acc.id === sale.accountId);
-
-            if (!client || !account) {
-                modal.alert('Cliente o cuenta asociada a la venta no encontrada.', 'Error', 'error');
-                return;
-            }
-
-            const assignedProfiles = account.profiles.filter(p => p.saleId === saleId);
-
-            let message = `Hola! 😊 ${client.name},\n\n`;
-            message += `Aquí tienes los datos de tu cuenta:\n\n`;
-            message += `📲 *PLATAFORMA:* ${account.platform}\n`;
-            message += `📧 *Usuario:* ${account.email}\n`;
-            message += `🔐 *Contraseña:* ${account.password}\n`;
-            message += `🆔 *Perfil${assignedProfiles.length > 1 ? 'es' : ''}:* ${assignedProfiles.map(p => p.name).join(', ')}\n`;
-            message += `🔑 *PIN:* ${assignedProfiles.map(p => p.pin).join(', ')}\n`;
-            message += `📅 *Vigencia:* ${new Date(sale.startDate).toLocaleDateString()} - ${new Date(sale.endDate).toLocaleDateString()}\n\n`;
-            message += `¡Que disfrutes tu servicio!`;
-
-            navigator.clipboard.writeText(message).then(() => {
-                modal.toast('📱 Mensaje copiado al portapapeles. ¡Listo para enviar por WhatsApp!', 'success');
-            }).catch(err => {
-                console.error('Error al copiar al portapapeles:', err);
-                const textArea = document.createElement('textarea');
-                textArea.value = message;
-                document.body.appendChild(textArea);
-                textArea.select();
-                try {
-                    document.execCommand('copy');
-                    modal.toast('📱 Mensaje copiado al portapapeles. ¡Listo para enviar por WhatsApp!', 'success');
-                } finally {
-                    document.body.removeChild(textArea);
-                }
-            });
-        }
-
-        function openAddServiceModal(serviceId = null) {
-            let service = null;
-            if (serviceId) {
-                service = services.find(s => s.id === serviceId);
-                if (!service) {
-                    modal.alert('Servicio no encontrado para editar.', 'Error', 'error');
-                    return;
-                }
-            }
-
-            const platforms = [...new Set(accounts.map(acc => acc.platform))];
-            const platformOptions = [
-                { value: '', text: 'Seleccionar plataforma...' },
-                ...platforms.map(platform => ({ value: platform, text: platform }))
-            ];
-
-            const formConfig = {
-                fields: [
-                    { type: 'text', name: 'name', label: 'Nombre del Servicio', required: true, value: service ? service.name : '', placeholder: 'Ej: Netflix Premium' },
-                    { type: 'textarea', name: 'description', label: 'Descripción', required: true, value: service ? service.description : '', placeholder: 'Describe las características del servicio...' },
-                    { type: 'number', name: 'price', label: 'Precio ($)', required: true, value: service ? (service.price || 0).toFixed(2) : '', step: '0.01', min: '0', placeholder: '0.00' },
-                    { type: 'select', name: 'platform', label: 'Plataforma Asociada', required: true, options: platformOptions, value: service ? service.platform : '' },
-                    { type: 'number', name: 'profilesPerPurchase', label: 'Perfiles por Compra', required: true, value: service ? (service.profilesPerPurchase || 1) : '1', min: '1', placeholder: '1' },
-                    { type: 'text', name: 'imageUrl', label: 'URL de Imagen', required: true, value: service ? service.imageUrl : '', placeholder: 'https://ejemplo.com/imagen.jpg' }
-                ]
-            };
-
-            modal.form(formConfig, `${serviceId ? 'Editar Servicio' : 'Agregar Nuevo Servicio'}`).then(async data => {
-                if (data) {
-                    const name = sanitizeInput(data.name);
-                    const description = sanitizeInput(data.description);
-                    const price = parseFloat(data.price);
-                    const platform = sanitizeInput(data.platform);
-                    const profilesPerPurchase = parseInt(data.profilesPerPurchase);
-                    const imageUrl = sanitizeInput(data.imageUrl);
-
-                    if (isNaN(price) || price < 0) {
-                        modal.alert('El precio debe ser un número positivo.', 'Error de Precio', 'error');
-                        return;
-                    }
-                    if (isNaN(profilesPerPurchase) || profilesPerPurchase < 1) {
-                        modal.alert('El número de perfiles por compra debe ser al menos 1.', 'Error de Perfiles', 'error');
-                        return;
-                    }
-                    if (!imageUrl.startsWith('http')) {
-                        modal.alert('La URL de la imagen debe comenzar con http:// o https://', 'URL Inválida', 'error');
-                        return;
-                    }
-
-                    let serviceToSave;
-                    if (serviceId) {
-                        serviceToSave = services.find(s => s.id === serviceId);
-                        Object.assign(serviceToSave, {
-                            name: name,
-                            description: description,
-                            price: price,
-                            platform: platform,
-                            profilesPerPurchase: profilesPerPurchase,
-                            imageUrl: imageUrl
-                        });
-                    } else {
-                        serviceToSave = {
-                            id: Date.now().toString(),
-                            name: name,
-                            description: description,
-                            price: price,
-                            platform: platform,
-                            profilesPerPurchase: profilesPerPurchase,
-                            imageUrl: imageUrl,
-                            createdAt: firebase.firestore.FieldValue.serverTimestamp()
-                        };
-                        services.push(serviceToSave);
-                    }
-
-                    try {
-                        await saveToFirebase('services', serviceToSave);
-                        renderServices();
-                        renderAvailableAccountsCatalog();
-                        modal.toast(`Servicio ${serviceId ? 'actualizado' : 'agregado'} correctamente.`, 'success');
-                    } catch (error) {
-                        console.error('Error saving service:', error);
-                        modal.toast(`Error al guardar el servicio: ${error.message}`, 'error');
-                    }
-                }
-            });
-        }
-
-        async function deleteService(id) {
-            const confirmed = await modal.confirm('¿Estás seguro de que deseas eliminar este servicio? Esta acción es irreversible.', 'Eliminar Servicio');
-            if (confirmed) {
-                try {
-                    await deleteFromFirebase('services', id);
-                    services = services.filter(s => s.id !== id);
-                    renderServices();
-                    modal.toast('Servicio eliminado correctamente.', 'success');
-                } catch (error) {
-                    console.error('Error deleting service:', error);
-                    modal.toast(`Error al eliminar el servicio: ${error.message}`, 'error');
-                }
-            }
-        }
-
-        // ============= INICIALIZACIÓN =============
-        document.addEventListener('DOMContentLoaded', async () => {
-            const firebaseInitialized = await initializeFirebase(firebaseConfig);
-=======
         // ============= INICIALIZACIÓN =============
         document.addEventListener('DOMContentLoaded', async () => {
             const firebaseInitialized = initializeFirebase(firebaseConfig);
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
             if (firebaseInitialized) {
                 checkAuthState();
             } else {
@@ -9673,7 +6812,4 @@ function copyAccountDataToClipboard(accountId, saleId) {
     </script>
 </body>
 </html>
-<<<<<<< HEAD
-=======
 <!-- ACTUALIZADO -->
->>>>>>> 6a5c1f30bc982bf4ce9c6d468a2792a3db91df98
